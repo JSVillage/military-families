@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { Component, PropTypes } from 'react';
 
-class HomePage extends React.Component {
+class HomePage extends Component {
     
     constructor(props) {
         super(props);
@@ -12,5 +12,7 @@ class HomePage extends React.Component {
         </div>;
     }
 }
+
+HomePage.propTypes = {};
 
 export default HomePage;

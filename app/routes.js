@@ -1,14 +1,14 @@
 import React from 'react';
-import {Route, IndexRoute} from 'react-router';
+import { Route, IndexRoute } from 'react-router';
 import MasterPage from './components/MasterPage';
-import HomePage from './components/HomePage';
-import AboutPage from './components/AboutPage';
-import ContactPage from './components/ContactPage';
+import HomeContainer from './components/home/HomeContainer';
+import AboutContainer from './components/about/AboutContainer';
+import ContactContainer from './components/contact/ContactContainer';
 
 export default (
     <Route path='/' component={MasterPage}>
-        <IndexRoute component={HomePage} />    
-        <Route path='/about' component={AboutPage} />
-        <Route path='/contact' component={ContactPage} />        
+        <IndexRoute component={HomeContainer} />    
+        <Route path='about' component={AboutContainer} />
+        <Route path='contact' component={ContactContainer} />        
     </Route>
 );

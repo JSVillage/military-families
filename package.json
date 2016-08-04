@@ -1,11 +1,11 @@
 {
   "name": "react-es6-starter",
   "version": "1.0.0",
-  "description": "React ES6 Starter app",
+  "description": "Military Families @ JSVillage Project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --hot --inline"    
+    "start": "webpack-dev-server --hot --inline"
   },
   "repository": {
     "type": "git",
