@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mlubovac/react-es6-starter.git"
+    "url": "git+https://github.com/JSVillage/military-families.git"
   },
   "keywords": [
     "react",
@@ -20,9 +20,9 @@
   "author": "Muharem Lubovac",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mlubovac/react-es6-starter/issues"
+    "url": "https://github.com/JSVillage/military-families/issues"
   },
-  "homepage": "https://github.com/mlubovac/react-es6-starter#readme",
+  "homepage": "https://github.com/JSVillage/military-families#readme",
   "dependencies": {
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
