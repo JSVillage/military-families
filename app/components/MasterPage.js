@@ -5,7 +5,7 @@ class MasterPage extends React.Component {
 
     render() {
         return <div>
-            <header className="navbar navbar-default navbar-fixed-top">
+            <nav className="navbar navbar-inverse navbar-fixed-top">
                 <div className="container-fluid">
                     <div className="navbar-header">
                         <p className="navbar-text">
@@ -33,14 +33,12 @@ class MasterPage extends React.Component {
                         </ul>
                     </div>
                 </div>
-            </header>
-            <div className="container-fluid">
-                <section id="content" className="col-sm-12" style={{
-                    marginTop: "60px"
-                }}>
-                    {this.props.children}
-                </section>
-            </div>
+            </nav>            
+            {this.props.children}
+            <div className="push"/>
+            <footer className="text-center">
+                &copy JavaScript Village 2016
+            </footer>
         </div>;
     }
 }
