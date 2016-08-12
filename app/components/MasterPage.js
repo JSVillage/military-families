@@ -16,6 +16,7 @@ class MasterPage extends React.Component {
                         <ul className="nav navbar-nav navbar-right">
                             <li><Link to="/contact">Contact</Link></li>
                             <li><Link to="/about">About</Link></li>
+                             <li><Link to="/resources">Resources</Link></li>
                         </ul>
                     </div>
                 </div>
