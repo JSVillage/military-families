@@ -1,14 +1,14 @@
 import React, { Component, PropTypes } from 'react';
 
 class AboutPage extends Component {
-    
+
     constructor(props) {
         super(props);
     }
 
     render() {
         return <div>
-            About Page
+              <h1>About Page</h1>
         </div>;
     }
 }

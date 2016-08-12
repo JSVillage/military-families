@@ -1,6 +1,6 @@
 import React, {Component, PropTypes} from 'react';
 
-class ForumPage extends Component {
+class ResourcesPage extends Component {
 
     constructor(props) {
         super(props);
@@ -8,11 +8,11 @@ class ForumPage extends Component {
 
     render() {
         return <div>
-          <h1>  Forum Page </h1>
+            <h1> Resources Page </h1>
         </div>;
     }
 }
 
-ForumPage.propTypes = {};
+ResourcesPage.propTypes = {};
 
-export default ForumPage;
+export default ResourcesPage;

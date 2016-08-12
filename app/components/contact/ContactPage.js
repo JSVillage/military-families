@@ -8,7 +8,7 @@ class ContactPage extends Component {
 
     render() {
         return <div>
-            Contact Page
+            <h1>Contact Page </h1>
         </div>;
     }
 }

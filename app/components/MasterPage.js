@@ -26,7 +26,9 @@ class MasterPage extends React.Component {
                             <li>
                                 <Link to="/forum">Forum</Link>
                             </li>
-
+                            <li>
+                                <Link to="/resources">Resources</Link>
+                            </li>
                             <li>
                                 <Link to="/about">About</Link>
                             </li>

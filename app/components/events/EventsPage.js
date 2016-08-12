@@ -8,7 +8,7 @@ class EventsPage extends Component {
 
     render() {
         return <div>
-            Events Page
+          <h1>  Events Page </h1>
         </div>;
     }
 }

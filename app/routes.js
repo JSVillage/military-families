@@ -7,7 +7,7 @@ import ContactContainer from './components/contact/ContactContainer';
 import ForumContainer from './components/forum/ForumContainer';
 import ServicesContainer from './components/services/ServicesContainer';
 import EventsContainer from './components/events/EventsContainer';
-
+import ResourcesContainer from './components/resources/ResourcesContainer'
 export default(
     <Route path='/' component={MasterPage}>
         <IndexRoute component={HomeContainer}/>
@@ -15,6 +15,6 @@ export default(
         <Route path='events' component={EventsContainer}/>
         <Route path='forum' component={ForumContainer}/>
         <Route path='about' component={AboutContainer}/>
-        // <Route path='contact' component={ContactContainer}/>
+        <Route path='resources' component={ResourcesContainer}/>
     </Route>
 );

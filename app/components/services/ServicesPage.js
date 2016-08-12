@@ -8,7 +8,7 @@ class ServicesPage extends Component {
 
     render() {
         return <div>
-            Services Page
+            <h1> Services Page </h1>
         </div>;
     }
 }
