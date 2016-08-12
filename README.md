@@ -19,7 +19,7 @@ Checkout the repo, install dependencies, start webpack dev server:
 
 ####Need Help With Git Commands#### [Click Here](http://rogerdudler.github.io/git-guide/)
 
-[![Join the chat at https://gitter.im/jstriebel/badges](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/JSVillage/military-families/badges)
+[![Join the chat at https://gitter.im/jstriebel/badges](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/JSVillage/military-families)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/hyperium/hyper/master/LICENSE)
 
 
