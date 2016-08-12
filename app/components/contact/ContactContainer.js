@@ -2,7 +2,7 @@ import React, { Component, PropTypes } from 'react';
 import ContactPage from './ContactPage';
 
 class ContactContainer extends Component {
-    
+
     constructor(props) {
         super(props);
     }
@@ -11,7 +11,5 @@ class ContactContainer extends Component {
         return <ContactPage />;
     }
 }
-
-ContactContainer.propTypes = {};
 
 export default ContactContainer;

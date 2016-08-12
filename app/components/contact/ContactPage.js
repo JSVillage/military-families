@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component, PropTypes } from 'react';
 
-class ContactPage extends React.Component {
-    
+class ContactPage extends Component {
+
     constructor(props) {
         super(props);
     }
@@ -12,5 +12,7 @@ class ContactPage extends React.Component {
         </div>;
     }
 }
+
+ContactPage.propTypes = {};
 
 export default ContactPage;
