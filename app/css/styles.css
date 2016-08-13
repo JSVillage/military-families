@@ -77,11 +77,28 @@ footer {
   /* footer text styling */
   font-weight: 700;
   font-size: 1.25em;
-  background-color: #000; 
+  background-color: #000;
   color: white;
   padding-top: 13px;
 }
 
 .push {
 	margin-bottom: 10em;
+}
+
+/**********************
+	RESOURCES PAGE
+**********************/
+
+.resources h4 {
+	font-weight: 700;
+	margin: 1.6em 0 1em
+}
+
+.resources h1{
+	margin: 3em 0 1.6em 0;
+}
+
+.resources a:hover {
+	text-decoration: none;
 }

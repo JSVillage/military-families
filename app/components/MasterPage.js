@@ -39,7 +39,7 @@ class MasterPage extends React.Component {
             {this.props.children}
             <div className="push"/>
             <footer className="text-center">
-                &copy JavaScript Village 2016
+                &copy; JavaScript Village 2016
             </footer>
         </div>;
     }

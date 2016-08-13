@@ -7,31 +7,43 @@ class ResourcesPage extends Component {
     }
 
     render() {
-        return <div>
+        return <div className="resources">
 
-            <h1 className="text-center">Resources Page</h1>
+          <h1 id="r-h1">Resources</h1>
 
+          <div className="container">
             <div className="row text-center">
-      			  <div className="col-md-3"><h4>Funding</h4></div>
-      			  <div className="col-md-3"><h4>Education</h4></div>
-      			  <div className="col-md-3"><h4>Healthcare</h4></div>
-      			  <div className="col-md-3"><h4>Jobs</h4></div>
+      			  <div className="col-md-3">
+                <a href="#">
+                <i className="fa fa-dollar fa-4x" aria-hidden="true"></i>
+                <h4>Funding</h4>
+                </a>
+                <p>Phasellizzle its fo rizzle volutpizzle tellizzle. Sizzle sizzle adipiscing lorem. Donizzle owned est.</p>
+              </div>
+      			  <div className="col-md-3">
+                <a href="#">
+                <i className="fa fa-university fa-4x" aria-hidden="true"></i>
+                <h4>Education</h4>
+                </a>
+                <p>Phasellizzle its fo rizzle volutpizzle tellizzle. Sizzle sizzle adipiscing lorem. Donizzle owned est.</p>
+              </div>
+      			  <div className="col-md-3">
+                <a href="#">
+                <i className="fa fa-medkit fa-4x" aria-hidden="true"></i>
+                <h4>Healthcare</h4>
+                </a>
+                <p>Phasellizzle its fo rizzle volutpizzle tellizzle. Sizzle sizzle adipiscing lorem. Donizzle owned est.</p>
+              </div>
+      			  <div className="col-md-3">
+                <a href="#">
+                <i className="fa fa-briefcase fa-4x" aria-hidden="true"></i>
+                <h4>Jobs</h4>
+                </a>
+                <p>Phasellizzle its fo rizzle volutpizzle tellizzle. Sizzle sizzle adipiscing lorem. Donizzle owned est.</p>
+              </div>
 			      </div>
 
-            <div className="row text-center">
-              <div className="col-md-3">
-                <p>Phasellizzle its fo rizzle volutpizzle tellizzle. Sizzle sizzle adipiscing lorem. Donizzle owned est. I saw beyonces tizzles and my pizzle went crizzle sapizzle sheezy, ultrices nec, owned vel, shizznit fizzle, pede. Duis nizzle sizzle. Etiam fo shizzle ornare ante.</p>
-              </div>
-              <div className="col-md-3">
-                <p>Phasellizzle its fo rizzle volutpizzle tellizzle. Sizzle sizzle adipiscing lorem. Donizzle owned est. I saw beyonces tizzles and my pizzle went crizzle sapizzle sheezy, ultrices nec, owned vel, shizznit fizzle, pede. Duis nizzle sizzle. Etiam fo shizzle ornare ante.</p>
-              </div>
-              <div className="col-md-3">
-                <p>Phasellizzle its fo rizzle volutpizzle tellizzle. Sizzle sizzle adipiscing lorem. Donizzle owned est. I saw beyonces tizzles and my pizzle went crizzle sapizzle sheezy, ultrices nec, owned vel, shizznit fizzle, pede. Duis nizzle sizzle. Etiam fo shizzle ornare ante.</p>
-              </div>
-              <div className="col-md-3">
-                <p>Phasellizzle its fo rizzle volutpizzle tellizzle. Sizzle sizzle adipiscing lorem. Donizzle owned est. I saw beyonces tizzles and my pizzle went crizzle sapizzle sheezy, ultrices nec, owned vel, shizznit fizzle, pede. Duis nizzle sizzle. Etiam fo shizzle ornare ante.</p>
-              </div>
-            </div>
+          </div>
 
 
         </div>;
