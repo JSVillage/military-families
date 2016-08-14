@@ -9,7 +9,7 @@ class ResourcesPage extends Component {
     render() {
         return <div className="resources">
 
-          <h1 id="r-h1">Resources</h1>
+          <h1>Resources</h1>
 
           <div className="container">
             <div className="row text-center">

@@ -13,8 +13,8 @@ This is a Web based Application to help Veterans find mental health services wit
 Checkout the repo, install dependencies, start webpack dev server:
 
 ```
-	> git clone https://github.com/mlubovac/react-es6-starter.git
-	> cd react-es6-starter
+	> git clone https://github.com/JSVillage/military-families.git
+	> cd military-families
 	> npm install
 	> npm start
 ```
@@ -23,5 +23,3 @@ Checkout the repo, install dependencies, start webpack dev server:
 
 [![Join the chat at https://gitter.im/jstriebel/badges](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/JSVillage/military-families)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/hyperium/hyper/master/LICENSE)
-
-
