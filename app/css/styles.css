@@ -1,0 +1,104 @@
+h1 {
+	text-align: center;
+	font-size: 3em;
+	font-weight: 700;
+	margin: 3em 0 1em 0;
+}
+
+h2 {
+	text-align: center;
+	font-size: 2em;
+	font-weight: 700;
+}
+
+/**********************
+	ABOUT PAGE
+**********************/
+p {
+	line-height: 2;
+}
+
+#social-icons {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.social-icon {
+	width: 33.333333%;
+	text-align: center;
+}
+
+.about-photo {
+	padding: 10px;
+}
+
+/**********************
+	HOME PAGE
+**********************/
+
+#search-wrapper {
+	position: relative;
+	bottom: 60px;
+	width: 100%;
+}
+
+#search-field {
+	width: 75%;
+	margin-right: 5%;
+	padding: 20px;
+}
+
+#search-button {
+	padding: 10px;
+	width: 20%;
+}
+
+
+/**********************
+	STICKY FOOTER
+**********************/
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 3em;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 3em;
+  /* footer text styling */
+  font-weight: 700;
+  font-size: 1.25em;
+  background-color: #000;
+  color: white;
+  padding-top: 13px;
+}
+
+.push {
+	margin-bottom: 10em;
+}
+
+/**********************
+	RESOURCES PAGE
+**********************/
+
+.resources h4 {
+	font-weight: 700;
+	margin: 1.6em 0 1em
+}
+
+.resources h1{
+	margin: 3em 0 1.6em 0;
+}
+
+.resources a:hover {
+	text-decoration: none;
+}

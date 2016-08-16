@@ -2,7 +2,7 @@ import React, { Component, PropTypes } from 'react';
 import AboutPage from './AboutPage';
 
 class AboutContainer extends Component {
-    
+
     constructor(props) {
         super(props);
     }
@@ -12,6 +12,5 @@ class AboutContainer extends Component {
     }
 }
 
-AboutContainer.propTypes = {};
 
 export default AboutContainer;
