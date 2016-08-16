@@ -13,8 +13,7 @@ class EventsContainer extends Component {
 
     componentDidMount() {
     	actions.getEvents().then(data => {
-    		const { events } = data;
-    		this.setState({ events });
+    		this.setState({ events: data });
     	});
     }
 
