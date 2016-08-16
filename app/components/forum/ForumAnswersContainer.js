@@ -27,22 +27,21 @@ class ForumAnswers extends Component {
                             <h2>Title goes here</h2>
                         </td>
                         <td className="text-center hidden-xs hidden-sm">
-                            <p>Quisque rutrum sem at tempus fringilla. Pellentesque quis fringilla tortor. Praesent fringilla maximus magna sed maximus. Maecenas quis pellentesque ante. Cras tempus finibus ex nec tempus. Sed eleifend diam id tincidunt imperdiet. Vivamus euismod et elit id maximus. Donec efficitur posuere mi, sed feugiat ligula pulvinar sit amet.
-                            </td>
-                            <td className="text-center hidden-xs hidden-sm">
-                                <a href="#">89 897</a>
-                            </td>
-                            <td className="hidden-xs hidden-sm">
-                                <small>
-                                    <i className="fa fa-clock-o"></i>
-                                    3 months ago</small>
-                            </td>
-                        </tr>
-
-                    </tbody>
-                </table>
-            </div>
-            } } ForumAnswers.propTypes = {};
-
-        export default ForumAnswers;
+                            <p>Quisque rutrum sem at tempus fringilla. Pellentesque quis fringilla tortor. Praesent fringilla maximus magna sed maximus. Maecenas quis pellentesque ante. Cras tempus finibus ex nec tempus. Sed eleifend diam id tincidunt imperdiet. Vivamus euismod et elit id maximus. Donec efficitur posuere mi, sed feugiat ligula pulvinar sit amet.</p>
+                        </td>
+                        <td className="text-center hidden-xs hidden-sm">
+                            <a href="#">89 897</a>
+                        </td>
+                        <td className="hidden-xs hidden-sm">
+                            <small><i className="fa fa-clock-o"></i> 3 months ago</small>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    } 
 }
+
+ForumAnswers.propTypes = {};
+
+export default ForumAnswers;

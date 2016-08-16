@@ -1,5 +1,5 @@
 import React, {Component, PropTypes} from 'react';
-import './stylesforum';
+//import './stylesforum';
 
 class ForumPage extends Component {
 
