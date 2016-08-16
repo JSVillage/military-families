@@ -1,22 +1,23 @@
 import React, { Component, PropTypes } from 'react';
-import ForumPage from './ForumPage';
+import ForumAnswers from './ForumAnswers';
 import * as actions from './ForumAction';
 
-class ForumContainer extends Component {
+class ForumAnswersContainer extends Component {
 
     constructor(props) {
         super(props);
         this.state = {
+          question: [],
           answers: []
         }
     }
 
 
     render() {
-        return <ForumPage />;
+        return <ForumAnswers />;
     }
 }
 
 
 
-export default ForumContainer;
+export default ForumAnswersContainer;
