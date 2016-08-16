@@ -8,11 +8,15 @@ class MasterPage extends React.Component {
             <nav className="navbar navbar-inverse navbar-fixed-top">
                 <div className="container-fluid">
                     <div className="navbar-header">
-                        <p className="navbar-text">
-                            <a href="/" className="navbar-link">Title</a>
-                        </p>
+                        <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-collapse" aria-expanded="false">
+                            <span className="sr-only">Toggle navigation</span>
+                            <span className="icon-bar"></span>
+                            <span className="icon-bar"></span>
+                            <span className="icon-bar"></span>
+                        </button>
+                        <a href="/" className="navbar-brand">Veteran Support</a>
                     </div>
-                    <div className="navbar-collapse collapse">
+                    <div className="navbar-collapse collapse" id="bs-collapse">
                         <ul className="nav navbar-nav navbar-right">
                             <li>
                                 <Link to="/">Home</Link>

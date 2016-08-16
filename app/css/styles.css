@@ -1,4 +1,24 @@
 /**********************
+	NAVIGATION
+**********************/
+
+.navbar-brand,
+.navbar-nav > li > a {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.65em;
+}
+
+.navbar > .container-fluid .navbar-brand {
+	margin-left: 1.5em;
+	font-size: 3.5em;
+	line-height: 25%;
+}
+
+.navbar-nav {
+	margin-right: 3em;
+}
+
+/**********************
 	HOME PAGE
 **********************/
 
@@ -46,6 +66,7 @@
 
 .home-page > p {
 	line-height: 2;
+	font-family: 'Merriweather', serif;
 }
 
 /**********************
@@ -61,6 +82,7 @@
 
 .about-page > p {
 	line-height: 2;
+	font-family: 'Merriweather', serif;
 }
 
 #social-icons {
