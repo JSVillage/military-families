@@ -1,4 +1,5 @@
 import React, {Component, PropTypes} from 'react';
+import EventList from './EventList';
 
 class EventsPage extends Component {
 
@@ -8,11 +9,22 @@ class EventsPage extends Component {
 
     render() {
         return <div>
-            Events Page
+            <div className="col-sm-4">
+            	<EventList events={this.props.events} />
+            </div>
+            <div className="col-sm-8">
+            	render map here...
+            </div>
         </div>;
     }
 }
 
-EventsPage.propTypes = {};
+EventsPage.propTypes = {
+	events: PropTypes.array.isRequired
+};
+
+EventsPage.defaultProps = {
+	events: []
+};
 
 export default EventsPage;
