@@ -1,8 +1,11 @@
 import axios from 'axios';
 
+const KEY = WjXY3BaaOA7QjEbAk2ae99FnLWqQhEkd;
+
+
 export function getEvents() {
 	return axios
-			.get("http://STRONG LOOP API URL/forum")
+			.get("https://api.mlab.com/api/1/databases/militaryresources/collections/forumDB?apiKey=" + KEY)
 			.then(response => response.data)
 			.catch(error => {
 				throw(error)
