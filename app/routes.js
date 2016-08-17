@@ -21,6 +21,9 @@ export default(
         <Route path="forum/:forumId" component={ForumAnswersContainer} />
         <Route path='resources' component={ResourcesContainer} />
         <Route path='about' component={AboutContainer}/>
+        <Route path='education' component={EducationContainer}/>
+        <Route path='funding' component={FundingContainer}/>
+        <Route path='healthcare' component={HealthcareContainer}/>
 
     </Route>
 );
