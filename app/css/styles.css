@@ -9,13 +9,12 @@
 }
 
 .navbar > .container-fluid .navbar-brand {
-	margin-left: 1.5em;
-	font-size: 3.5em;
+	font-size: 2.5em;
 	line-height: 25%;
 }
 
 .navbar-nav {
-	margin-right: 3em;
+	
 }
 
 /**********************
@@ -24,7 +23,7 @@
 
 .title-container {
 	position: absolute;
-	top: 300px;
+	top: 20%;
 	width: 100%;
 	text-align: center;
 	font-weight: 700;
