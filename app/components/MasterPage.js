@@ -19,9 +19,6 @@ class MasterPage extends React.Component {
                     <div className="navbar-collapse collapse" id="bs-collapse">
                         <ul className="nav navbar-nav navbar-right">
                             <li>
-                                <Link to="/">Home</Link>
-                            </li>
-                            <li>
                                 <Link to="/services">Services</Link>
                             </li>
                             <li>
