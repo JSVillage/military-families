@@ -1,5 +1,4 @@
 import React, {Component, PropTypes} from 'react';
-//import './stylesforum';
 
 class ForumPage extends Component {
 
@@ -36,21 +35,16 @@ class ForumPage extends Component {
                             </td>
                             <td>
                                 <h4>
-                                    <a to="/forum/1"> MAING QUESTION GOES HERE </a>
+                                    <a href="#s"> QUESTION GOES HERE </a>
                                     <br></br>
-                                    <small>Some description</small>
+                                    <small> Some description </small>
                                 </h4>
                             </td>
-                            <td className="text-center hidden-xs hidden-sm">
-                                <a href="#">9 542</a>
-                            </td>
-                            <td className="text-center hidden-xs hidden-sm">
-                                <a href="#">89 897</a>
-                            </td>
+
                             <td className="hidden-xs hidden-sm">
                                 <small>
                                     <i className="fa fa-clock-o"></i>
-                                    3 months ago</small>
+                                    time  goes here</small>
                             </td>
                         </tr>
 

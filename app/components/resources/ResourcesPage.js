@@ -1,4 +1,5 @@
 import React, {Component, PropTypes} from 'react';
+import {Link} from 'react-router';
 
 class ResourcesPage extends Component {
 
@@ -15,31 +16,31 @@ class ResourcesPage extends Component {
             <div className="container">
                 <div className="row text-center">
                     <div className="col-md-3">
-                        <a href="./FundingPage">
+                        <Link to="/resources/funding">
                             <i className="fa fa-dollar fa-4x" aria-hidden="true"></i>
                             <h4>Funding</h4>
-                        </a>
+                        </Link>
                         <p>Phasellizzle its fo rizzle volutpizzle tellizzle. Sizzle sizzle adipiscing lorem. Donizzle owned est.</p>
                     </div>
                     <div className="col-md-3">
-                        <a href="./EducationPage">
+                        <Link to="/resources/education">
                             <i className="fa fa-university fa-4x" aria-hidden="true"></i>
                             <h4>Education</h4>
-                        </a>
+                        </Link>
                         <p>Phasellizzle its fo rizzle volutpizzle tellizzle. Sizzle sizzle adipiscing lorem. Donizzle owned est.</p>
                     </div>
                     <div className="col-md-3">
-                        <a href="./HealthcarePage">
+                        <Link to="/resources/healthcare">
                             <i className="fa fa-medkit fa-4x" aria-hidden="true"></i>
                             <h4>Healthcare</h4>
-                        </a>
+                        </Link>
                         <p>Phasellizzle its fo rizzle volutpizzle tellizzle. Sizzle sizzle adipiscing lorem. Donizzle owned est.</p>
                     </div>
                     <div className="col-md-3">
-                        <a href="#">
+                        <Link to="/resources/jobs">
                             <i className="fa fa-briefcase fa-4x" aria-hidden="true"></i>
                             <h4>Jobs</h4>
-                        </a>
+                        </Link>
                         <p>Phasellizzle its fo rizzle volutpizzle tellizzle. Sizzle sizzle adipiscing lorem. Donizzle owned est.</p>
                     </div>
                 </div>

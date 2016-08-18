@@ -20,7 +20,7 @@ class HomePage extends Component {
 		        </div>
 		        <div className="title-container">
 		        	<h1>Military Veterans</h1>
-		        	<h3>A recource for PTSD victims</h3>
+		        	<h3>A resource for PTSD victims</h3>
 	        	</div>
 		        <div id="search-wrapper">
 	    			<div className="col-lg-offset-3 col-lg-6 col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">

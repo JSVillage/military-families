@@ -9,6 +9,10 @@ import ForumContainer from './components/forum/ForumContainer';
 import ServicesContainer from './components/services/ServicesContainer';
 import EventsContainer from './components/events/EventsContainer';
 import ForumAnswersContainer from './components/forum/ForumAnswersContainer';
+import EducationContainer from './components/resources/education/EducationContainer';
+import FundingContainer from './components/resources/funding/FundingContainer';
+import HealthcareContainer from './components/resources/healthcare/HealthcareContainer';
+import JobsContainer from './components/resources/jobs/JobsContainer';
 
 
 export default(
@@ -21,9 +25,10 @@ export default(
         <Route path="forum/:forumId" component={ForumAnswersContainer} />
         <Route path='resources' component={ResourcesContainer} />
         <Route path='about' component={AboutContainer}/>
-        <Route path='education' component={EducationContainer}/>
-        <Route path='funding' component={FundingContainer}/>
-        <Route path='healthcare' component={HealthcareContainer}/>
+        <Route path='resources/education' component={EducationContainer}/>
+        <Route path='resources/funding' component={FundingContainer}/>
+        <Route path='resources/healthcare' component={HealthcareContainer}/>
+        <Route path='resources/jobs' component={JobsContainer}/>
 
     </Route>
 );
