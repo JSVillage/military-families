@@ -13,22 +13,18 @@ class HomePage extends Component {
 		    <div className="video-container">
 		        <div className="filter"></div>
 		        <video autoPlay loop className="fillWidth">
-		            <source src="app/coverr-video/Walking-By.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-		            <source src="app/coverr-video/Walking-By.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+		            <source src="app/coverr-video/Merica.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+		            <source src="app/coverr-video/Merica.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
 		        </video>
 		        <div className="poster hidden">
-		            <img src="app/coverr-video/Walking-By.jpg" alt="" />
+		            <img src="app/coverr-video/Merica.jpg" alt="" />
 		        </div>
-		        <div className="title-container">
-		        	<h1>Military Veterans</h1>
-		        	<h3>A recource for PTSD victims</h3>
-	        	</div>
-		        <div id="search-wrapper">
-	    			<div className="col-lg-offset-3 col-lg-6 col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
-	    				<form className="form-inline">
-	    					<input className="form-control" type="text" id="search-field" placeholder="What are you looking for?"/>
-	    					<button type="submit" className="btn btn-primary" id="search-button">Search</button>
-			        	</form>
+		        <div className="row">
+		        	<div className="col-lg-offset-6 col-lg-6 col-md-offset-7 col-md-5">
+			        	<div className="title-container">
+				        	<h1>Military Veterans</h1>
+				        	<h3>A recource for PTSD victims</h3>
+			        	</div>
 		        	</div>
 	        	</div>
 		    </div>

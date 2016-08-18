@@ -5,7 +5,7 @@ class MasterPage extends React.Component {
 
     render() {
         return <div>
-            <nav className="navbar navbar-inverse navbar-fixed-top">
+            <nav className="navbar navbar-default navbar-fixed-top">
                 <div className="container-fluid">
                     <div className="navbar-header">
                         <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-collapse" aria-expanded="false">
