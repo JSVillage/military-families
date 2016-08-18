@@ -1,4 +1,5 @@
 import React, { Component, PropTypes } from 'react';
+import {Link} from 'react-router';
 
 class HomePage extends Component {
 
@@ -12,22 +13,18 @@ class HomePage extends Component {
 		    <div className="video-container">
 		        <div className="filter"></div>
 		        <video autoPlay loop className="fillWidth">
-		            <source src="app/coverr-video/Walking-By.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-		            <source src="app/coverr-video/Walking-By.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+		            <source src="app/coverr-video/Merica.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+		            <source src="app/coverr-video/Merica.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
 		        </video>
 		        <div className="poster hidden">
-		            <img src="app/coverr-video/Walking-By.jpg" alt="" />
+		            <img src="app/coverr-video/Merica.jpg" alt="" />
 		        </div>
-		        <div className="title-container">
-		        	<h1>Military Veterans</h1>
-		        	<h3>A recource for PTSD victims</h3>
-	        	</div>
-		        <div id="search-wrapper">
-	    			<div className="col-lg-offset-3 col-lg-6 col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
-	    				<form className="form-inline">
-	    					<input className="form-control" type="text" id="search-field" placeholder="What are you looking for?"/>
-	    					<button type="submit" className="btn btn-primary" id="search-button">Search</button>
-			        	</form>
+		        <div className="row">
+		        	<div className="col-lg-offset-6 col-lg-6 col-md-offset-7 col-md-5">
+			        	<div className="title-container">
+				        	<h1>Military Veterans</h1>
+				        	<h3>A recource for PTSD victims</h3>
+			        	</div>
 		        	</div>
 	        	</div>
 		    </div>
@@ -37,17 +34,23 @@ class HomePage extends Component {
 			<div className="row">
 				<div className="col-md-4 home-page">
 					<h2><i className="fa fa-hospital-o" aria-hidden="true"></i> Crisis</h2>
-					<p>Quisque rutrum sem at tempus fringilla. Pellentesque quis fringilla tortor. Praesent fringilla maximus magna sed maximus. Maecenas quis pellentesque ante. Cras tempus finibus ex nec tempus. Sed eleifend diam id tincidunt imperdiet. Vivamus euismod et elit id maximus. Donec efficitur posuere mi, sed feugiat ligula pulvinar sit amet.</p>
+					<p>If you are in need of immediate assistance the <a href="http://www.veteranscrisisline.net" target="_blank">Veterans Crisis Line</a> is available 24/7. Their contact number is 1-800-273-8255.</p>
+					<p><i>" The Veterans Crisis Line connects Veterans in crisis and their families and friends with qualified, caring Department of Veterans Affairs responders through a confidential toll-free hotline, online chat, or text."</i></p>
 
 				</div>
 				<div className="col-md-4 home-page">
 					<h2><i className="fa fa-medkit" aria-hidden="true"></i> Help</h2>
-					<p>Quisque rutrum sem at tempus fringilla. Pellentesque quis fringilla tortor. Praesent fringilla maximus magna sed maximus. Maecenas quis pellentesque ante. Cras tempus finibus ex nec tempus. Sed eleifend diam id tincidunt imperdiet. Vivamus euismod et elit id maximus. Donec efficitur posuere mi, sed feugiat ligula pulvinar sit amet.</p>
+					<p>The <a href="http://www.phoenix.va.gov/" target="_blank">Phoenix VA Health Care Systems</a> main facility is located in central Phoenix.</p>
+					<p>650 E. Indian School Rd.</p>
+					<p>Phoenix, AZ 85021</p>
+					<p>602-277-5551</p>
+					<p>Other Vet Centers, clinics, and offices can be found <a href="http://www.va.gov/landing2_locations.htm" target="_blank">here</a>.</p>
 
 				</div>
 				<div className="col-md-4 home-page">
-					<h2><i className="fa fa-users" aria-hidden="true"></i> Socialize</h2>
-					<p>Quisque rutrum sem at tempus fringilla. Pellentesque quis fringilla tortor. Praesent fringilla maximus magna sed maximus. Maecenas quis pellentesque ante. Cras tempus finibus ex nec tempus. Sed eleifend diam id tincidunt imperdiet. Vivamus euismod et elit id maximus. Donec efficitur posuere mi, sed feugiat ligula pulvinar sit amet.</p>
+					<h2><i className="fa fa-users" aria-hidden="true"></i> Comradery</h2>
+					<p>You are not in this fight alone. The military's teamwork philosopohy extends beyond the battlefield and into the rest of your lives. Please check out our <Link to="/events">Events</Link> and <Link to="/forum">Forum</Link> to connect with other veterans.</p>
+					<p>Also checkout <a href="https://theveteransdirectory.org/" target="_blank">The Veterans Directory</a> for more great information to veterans in general.</p>
 
 				</div>
 			</div>
