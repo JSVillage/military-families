@@ -1,6 +1,5 @@
 import React, {Component, PropTypes} from 'react';
 
-
 class ForumPage extends Component {
 
     constructor(props) {
@@ -36,9 +35,9 @@ class ForumPage extends Component {
                             </td>
                             <td>
                                 <h4>
-                                    <a to="/forum/1"> QUESTION GOES HERE </a>
+                                    <a href="#s"> QUESTION GOES HERE </a>
                                     <br></br>
-                                    <small>{Some description}</small>
+                                    <small> Some description </small>
                                 </h4>
                             </td>
 

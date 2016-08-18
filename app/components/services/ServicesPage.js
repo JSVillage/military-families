@@ -1,6 +1,6 @@
 import React, {Component, PropTypes} from 'react';
 
-className ServicesPage extends Component {
+class ServicesPage extends Component {
 
     constructor(props) {
         super(props);
@@ -16,7 +16,7 @@ className ServicesPage extends Component {
                                 <a href="#" className="list-group-item active">
                                     <div className="media col-md-3">
                                         <figure className="pull-left">
-                                            <img className="media-object img-rounded img-responsive" src="http:/ / placehold.it / 350x250 " alt="placehold.it / 350x250 "></figure>
+                                            <img className="media-object img-rounded img-responsive" src="http:/ / placehold.it / 350x250 " alt="placehold.it / 350x250 "></img></figure>
                                         </div>
                                         <div className="col - md - 6 ">
                                             <h4 className="list - group - item - heading ">
