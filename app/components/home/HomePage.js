@@ -37,7 +37,8 @@ class HomePage extends Component {
 			<div className="row">
 				<div className="col-md-4 home-page">
 					<h2><i className="fa fa-hospital-o" aria-hidden="true"></i> Crisis</h2>
-					<p>Quisque rutrum sem at tempus fringilla. Pellentesque quis fringilla tortor. Praesent fringilla maximus magna sed maximus. Maecenas quis pellentesque ante. Cras tempus finibus ex nec tempus. Sed eleifend diam id tincidunt imperdiet. Vivamus euismod et elit id maximus. Donec efficitur posuere mi, sed feugiat ligula pulvinar sit amet.</p>
+					<p>"The Veterans Crisis Line connects Veterans in crisis and their families and friends with qualified, caring Department of Veterans Affairs responders through a confidential toll-free hotline, online chat, or text."</p>
+					<p>If you are in need of immediate assistance the <a href="www.veteranscrisisline.net" target="_blank">Veterans Crisis Line</a> is available 24/7. Their contact number is 1-800-273-8255.</p>
 
 				</div>
 				<div className="col-md-4 home-page">
@@ -46,7 +47,7 @@ class HomePage extends Component {
 
 				</div>
 				<div className="col-md-4 home-page">
-					<h2><i className="fa fa-users" aria-hidden="true"></i> Socialize</h2>
+					<h2><i className="fa fa-users" aria-hidden="true"></i> Comradery</h2>
 					<p>Quisque rutrum sem at tempus fringilla. Pellentesque quis fringilla tortor. Praesent fringilla maximus magna sed maximus. Maecenas quis pellentesque ante. Cras tempus finibus ex nec tempus. Sed eleifend diam id tincidunt imperdiet. Vivamus euismod et elit id maximus. Donec efficitur posuere mi, sed feugiat ligula pulvinar sit amet.</p>
 
 				</div>
