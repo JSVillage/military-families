@@ -9,13 +9,7 @@
 }
 
 .navbar > .container-fluid .navbar-brand {
-	margin-left: 1.5em;
-	font-size: 3.5em;
-	line-height: 25%;
-}
-
-.navbar-nav {
-	margin-right: 3em;
+	font-size: 2.5em;
 }
 
 /**********************
@@ -23,39 +17,26 @@
 **********************/
 
 .title-container {
-	position: absolute;
-	top: 300px;
-	width: 100%;
+	margin-top: 35%;
 	text-align: center;
-	font-weight: 700;
-	color: white;
-	font-family: 'Montserrat', sans-serif;
+	color: #1995dc;
+	text-shadow: 2px 2px 10px white;
+}
+
+@media (max-device-width: 992px) {
+	.title-container {
+		margin-top: 15%;
+	}
 }
 
 .title-container > h1 {
-	font-size: 6.5em;
-	letter-spacing: 5px;
+	font-size: 4.5em;
+	font-family: 'Candal', sans-serif;
 }
 
 .title-container > h3 {
 	font-size: 2.5em;
-}
-
-#search-wrapper {
-	position: absolute;
-	bottom: 60px;
-	width: 100%;
-}
-
-#search-field {
-	width: 75%;
-	margin-right: 5%;
-	padding: 20px;
-}
-
-#search-button {
-	padding: 10px;
-	width: 20%;
+	font-family: 'Candal', sans-serif;
 }
 
 .home-page > h2 {
@@ -66,6 +47,7 @@
 
 .home-page > p {
 	line-height: 2;
+	text-align: center;
 	font-family: 'Merriweather', serif;
 }
 
@@ -112,6 +94,8 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 3em;
+  /* Margin top by navbar height */
+  margin-top: 50px;
 }
 
 footer {
@@ -123,7 +107,8 @@ footer {
   /* footer text styling */
   font-weight: 700;
   font-size: 1.25em;
-  background-color: #18bc9c;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #1995dc;
   color: #ffffff;
   padding-top: 13px;
 }
