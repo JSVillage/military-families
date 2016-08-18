@@ -27,6 +27,7 @@
     "axios": "^0.13.1",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
+    "react-leaflet": "^0.12.1",
     "react-router": "^2.5.0"
   },
   "devDependencies": {

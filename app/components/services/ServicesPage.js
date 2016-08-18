@@ -8,15 +8,13 @@ class ServicesPage extends Component {
 
     render() {
         return <div>
-            <div className="container">
-                <div className="row">
-                    <div className="well">
-                        <h1 className="text-center"> Find Services in your area </h1>
+          <h1>Services Page </h1>
+              <div className="container">
+                  <div className="row text-center">
                             <div className="list-group">
-                                <a href="#" className="list-group-item active">
+                                <a href="#" className="list-group-item">
                                     <div className="media col-md-3">
-                                        <figure className="pull-left">
-                                            <img className="media-object img-rounded img-responsive" src="http:/ / placehold.it / 350x250 " alt="placehold.it / 350x250 "></img></figure>
+
                                         </div>
                                         <div className="col - md - 6 ">
                                             <h4 className="list - group - item - heading ">
@@ -30,9 +28,9 @@ class ServicesPage extends Component {
                                     </a>
                                 </div>
                             </div>
-                        </div>
-                    </div>
 
+
+                          </div>
                 </div>;
               }
       }

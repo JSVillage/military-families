@@ -1,11 +1,10 @@
 import axios from 'axios';
 
-const API = "WjXY3BaaOA7QjEbAk2ae99FnLWqQhEkd";
 
 
 export function getEvents() {
 	return axios
-			.get("https://api.mlab.com/api/1/databases/militaryresources/collections/eventsDB?apiKey=").concat(API)
+			.get("https://nameless-sands-91761.herokuapp.com/api/events")
 			.then(response => response.data)
 			.catch(error => {
 				throw(error)
