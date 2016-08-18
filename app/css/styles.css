@@ -59,7 +59,7 @@
 	text-align: center;
 	font-size: 3em;
 	font-weight: 700;
-	margin: 3em 0 1em 0;
+	margin: 1.5em 0 1em 0;
 }
 
 .about-page > p {
@@ -67,18 +67,18 @@
 	font-family: 'Merriweather', serif;
 }
 
-#social-icons {
-	width: 50%;
-	margin: 0 auto;
+#about-photo {
+	position: relative;
+	top: 50px;
 }
 
-.social-icon {
-	width: 33.333333%;
-	text-align: center;
-}
-
-.about-photo {
+#about-photo > img {
 	padding: 10px;
+}
+
+#about-photo > p {
+	margin-left: 10px;
+	font-style: italic;
 }
 
 
@@ -105,8 +105,7 @@ footer {
   /* Set the fixed height of the footer here */
   height: 3em;
   /* footer text styling */
-  font-weight: 700;
-  font-size: 1.25em;
+  font-size: 1.65em;
   font-family: 'Montserrat', sans-serif;
   background-color: #1995dc;
   color: #ffffff;
