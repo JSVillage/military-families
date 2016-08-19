@@ -10,9 +10,9 @@ const EventListItem = (props) => {
 		<p>When: {event.date}</p>
 		<p>Where:</p>
 		<address>
-			{event.address.address}<br />
-			{event.address.city}<br />
-			{event.address.state} {event.address.zip}<br />
+			{event.eventAddress.street}<br />
+			{event.eventAddress.city}<br />
+			{event.eventAddress.state} {event.eventAddress.zip}<br />
 		</address>
 	</li>
 };
