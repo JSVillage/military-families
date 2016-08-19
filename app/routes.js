@@ -8,6 +8,7 @@ import ResourcesContainer from './components/resources/ResourcesContainer';
 import ForumContainer from './components/forum/ForumContainer';
 import ServicesContainer from './components/services/ServicesContainer';
 import EventsContainer from './components/events/EventsContainer';
+import SubmitEventContainer from './components/submit-event/SubmitEventContainer';
 import ForumAnswersContainer from './components/forum/ForumAnswersContainer';
 import EducationContainer from './components/resources/education/EducationContainer';
 import FundingContainer from './components/resources/funding/FundingContainer';
@@ -21,6 +22,7 @@ export default(
         <IndexRoute component={HomeContainer}/>
         <Route path='services' component={ServicesContainer}/>
         <Route path='events' component={EventsContainer}/>
+        <Route path='submit-event' component={SubmitEventContainer}/>        
         <Route path='forum' component={ForumContainer}/>
         <Route path="forum/:forumId" component={ForumAnswersContainer} />
         <Route path='resources' component={ResourcesContainer} />
