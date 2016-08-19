@@ -1,4 +1,5 @@
-import React, {Component, PropTypes} from 'react';
+import React, { Component, PropTypes } from 'react';
+import { Link } from 'react-router';
 import EventList from './EventList';
 import { Map, Marker, Popup, TileLayer } from 'react-leaflet';
 
@@ -15,6 +16,7 @@ class EventsPage extends Component {
             <div className="col-sm-4">
             	<EventList events={this.props.events} />
             </div>
+            <Link to="submit-event" className="btn btn-primary">Submit Event</Link>
             <div className="col-sm-8">
             <Map center={position} zoom={13}>
                 <TileLayer
