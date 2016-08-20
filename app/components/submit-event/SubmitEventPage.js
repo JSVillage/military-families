@@ -9,6 +9,21 @@ class SubimtEventPage extends Component {
     
     handleSubmitClick(event) {
 
+        const model = {
+            name: this.refs.name.value,
+            description: this.refs.description.value,
+            eventAddress: {
+                street: this.refs.street.value,
+                city: this.refs.city.value,
+                state: this.refs.state.value,
+                zip: this.refs.zip.value,
+                lat: (Math.random() * (33 - 35) + 35),
+                long: -(Math.random() * (113 - 111) + 111),
+            },
+            date: this.refs.date.value
+        };
+
+        this.props.postEvent(model);
     }
 
     render() {
