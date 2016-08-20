@@ -140,3 +140,7 @@ footer {
 		line-height: 2;
 		font-family: 'Merriweather', serif;
 }
+
+.resources .icon {
+	margin-right: 12px;
+}

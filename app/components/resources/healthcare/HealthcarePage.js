@@ -9,18 +9,16 @@ class HealthcarePage extends Component {
     render() {
         return <div>
           <div className="resources">
+            <div className="container">
 
-            <i className="fa fa-medkit fa-4x" aria-hidden="true"></i>
-            <h1>Health Care</h1>
+            <h1><i className="fa fa-medkit icon" aria-hidden="true"></i>Health Care</h1>
 
-            <h3>Title</h3>
-            <h2>Link</h2>
-            <h2>Phone Number</h2>
+            <h2>Title</h2>
+            <h3>Link</h3>
+            <h3>Phone Number</h3>
             <p>Content (already in p tags in json)</p>
 
-
-
-
+            </div>
         </div>
       </div>;
     }

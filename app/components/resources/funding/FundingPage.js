@@ -9,11 +9,16 @@ class FundingPage extends Component {
     render() {
         return <div>
           <div className="resources">
+            <div className="container">
 
-            <i className="fa fa-dollar fa-4x text-center" aria-hidden="true"></i>
-            <h1>Funding</h1>
+            <h1><i className="fa fa-dollar icon" aria-hidden="true"></i>Funding</h1>
 
+            <h2>Title</h2>
+            <h3>Link</h3>
+            <h3>Phone Number</h3>
+            <p>Content (already in p tags in json)</p>
 
+            </div>
         </div>
       </div>;
     }
