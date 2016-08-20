@@ -1,21 +1,29 @@
 import React, { Component, PropTypes } from 'react';
+import * as actions from './actions';
 import SubmitEventPage from './SubmitEventPage';
 
 class SubmitEventContainer extends Component {
 
-    constructor(props) {
-        super(props);
+    constructor(props, context) {
+        super(props, context);
+        this.postEvent = this.postEvent.bind(this);
     }
 
-    submitEvent(eventData) {
-        actions.submitEvent(eventData).then(response => {
-
+    postEvent(model) {
+        actions.postEvent(model).then(response => {
+            if (response.status === 200) {
+                this.context.router.push('/events');                
+            }
         });
     }
 
     render() {
-        return <SubmitEventPage submitEvent={this.submitEvent} />;
+        return <SubmitEventPage postEvent={this.postEvent} />;
     }
+}
+
+SubmitEventContainer.contextTypes = {
+    router: PropTypes.object
 }
 
 export default SubmitEventContainer;
