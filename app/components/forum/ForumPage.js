@@ -1,16 +1,24 @@
 import React, {Component, PropTypes} from 'react';
+import { Link } from 'react-router';
 
 class ForumPage extends Component {
 
     constructor(props) {
         super(props);
+        this.handleFormSubmit = this.handleFormSubmit.bind(this);
+    }
+
+    handleFormSubmit(event) {
+        event.preventDefault();
+        const model = {
+            question: this.refs.question.value
+        };
+        this.props.postQuestion(model);
     }
 
     render() {
         return <div>
-
             <div className="container">
-
                 <div className="page-header page-heading">
                     <div className="clearfix"> </div>
                     <h1>Forum</h1>
@@ -19,37 +27,29 @@ class ForumPage extends Component {
                 <table className="table forum table-striped">
                     <thead>
                         <tr>
-                            <th className="cell-stat"></th>
-                            <th>
-                                <h3>Find Support</h3>
-                            </th>
-                            <th className="cell-stat text-center hidden-xs hidden-sm">Topics</th>
-                            <th className="cell-stat text-center hidden-xs hidden-sm">Posts</th>
-                            <th className="cell-stat-2x hidden-xs hidden-sm">Last Post</th>
+                            <th>Topics</th>
+                            <th>Posts</th>
+                            <th>Last Post</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td className="text-center">
-                                <i className="fa fa-question fa-2x text-primary"></i>
-                            </td>
-                            <td>
-                                <h4>
-                                    <a href="#s"> QUESTION GOES HERE </a>
-                                    <br></br>
-                                    <small> Some description </small>
-                                </h4>
-                            </td>
-
-                            <td className="hidden-xs hidden-sm">
-                                <small>
-                                    <i className="fa fa-clock-o"></i>
-                                    time  goes here</small>
-                            </td>
-                        </tr>
-
+                        {
+                            this.props.questions.map(question => 
+                                <tr key={question.id}>
+                                    <td><Link to={`forum/${question.id}`}>{question.question}</Link></td>
+                                    <td>{question.description}</td>
+                                    <td>{question.presentDate}</td>
+                                </tr>
+                            )
+                        }
                     </tbody>
                 </table>
+                <div>
+                    <form className="form-horizontal" onSubmit={this.handleFormSubmit}>
+                        <textarea ref="question" />
+                        <button>Ask</button>
+                    </form>
+                </div>
             </div>
         </div>;
     }
