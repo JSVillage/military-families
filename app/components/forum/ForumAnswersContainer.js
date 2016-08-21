@@ -1,10 +1,20 @@
 import React, {Component, PropTypes} from 'react';
 import {Link} from 'react-router';
-import * as actions from './ForumAction';
+import * as actions from './forumAction';
 
-class ForumAnswers extends Component {
+class ForumAnswersContainer extends Component {
     constructor(props) {
         super(props);
+        this.state = {
+            answers: []
+        };
+    }
+
+    componentDidMount() {
+        const forumId = this.props.routeParams.forumId;
+        actions.getAnswers(forumId).then(response => {
+            this.setState({ answers: response });
+        });
     }
 
     render() {
@@ -14,34 +24,29 @@ class ForumAnswers extends Component {
                     <tr>
                         <th className="cell-stat"></th>
                         <th>
-                            <h3>Question goes here</h3>
+                            <h3>Question goes here: {this.props.routeParams.forumId}</h3>
                         </th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td className="text-center">
-                            <i className="fa fa-question fa-2x text-primary"></i>
-                        </td>
-                        <td>
-                            <h2>Title goes here</h2>
-                        </td>
-                        <td className="text-center hidden-xs hidden-sm">
-                            <p>Quisque rutrum sem at tempus fringilla. Pellentesque quis fringilla tortor. Praesent fringilla maximus magna sed maximus. Maecenas quis pellentesque ante. Cras tempus finibus ex nec tempus. Sed eleifend diam id tincidunt imperdiet. Vivamus euismod et elit id maximus. Donec efficitur posuere mi, sed feugiat ligula pulvinar sit amet.</p>
-                        </td>
-                        <td className="text-center hidden-xs hidden-sm">
-                            <a href="#">89 897</a>
-                        </td>
-                        <td className="hidden-xs hidden-sm">
-                            <small><i className="fa fa-clock-o"></i> 3 months ago</small>
-                        </td>
-                    </tr>
+
+                {
+                    this.state.answers.map(answer => 
+                        <tr key={answer.id}>
+                            <td className="text-center hidden-xs hidden-sm">
+                                <p>{answer.userAnswers}</p>
+                                <p><i>Posted on {answer.date}</i></p>
+                            </td>
+                        </tr>                    
+                    )
+                }
+
                 </tbody>
             </table>
         </div>
     } 
 }
 
-ForumAnswers.propTypes = {};
+ForumAnswersContainer.propTypes = {};
 
-export default ForumAnswers;
+export default ForumAnswersContainer;
