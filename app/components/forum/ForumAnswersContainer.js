@@ -31,8 +31,8 @@ class ForumAnswersContainer extends Component {
                 <tbody>
 
                 {
-                    this.state.answers.map(answer => 
-                        <tr key={answer.id}>
+                    this.state.answers.map((answer, index) => 
+                        <tr key={index}>
                             <td className="text-center hidden-xs hidden-sm">
                                 <p>{answer.userAnswers}</p>
                                 <p><i>Posted on {answer.date}</i></p>
