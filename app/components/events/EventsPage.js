@@ -11,7 +11,7 @@ class EventsPage extends Component {
 
 	render() {
 
-		const position = [33.9, -112];
+		const position = [33.45, -112.07];
 
 		return <div>
 				<div className="col-sm-4">
@@ -19,15 +19,20 @@ class EventsPage extends Component {
 				</div>
 				<div className="col-sm-8">
 					<Link to="submit-event" className="btn btn-primary">Submit Event</Link>
-					<Map center={position} zoom={13}>
+					<Map center={position} zoom={9}>
 					<TileLayer
 						url='http://{s}.tile.osm.org/{z}/{x}/{y}.png'
 						attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'/>
-						<Marker position={position}>
-							<Popup>
-								<span>A pretty CSS3 popup.<br/>Easily customizable.</span>
-							</Popup>
-						</Marker>
+
+						{
+							this.props.events.map(event => 
+								<Marker key={event.id} position={[event.eventAddress.lat, event.eventAddress.long]}>
+									<Popup>
+										<span>{event.name}</span>
+									</Popup>
+								</Marker>
+							)
+						}
 					</Map>            	
 				</div>
 			</div>;
