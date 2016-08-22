@@ -16,8 +16,13 @@ class ForumPage extends Component {
         const modeldescription = {
             description: this.refs.description.value
         };
-        this.props.postQuestion(modelQ, modelD);
+
+        this.props.postQuestion(modelquestion, modeldescription);
+        console.log(modelquestion, modeldescription);
+
     }
+
+
 
     render() {
         return <div>
@@ -29,7 +34,7 @@ class ForumPage extends Component {
 
                 <p className="lead">This is the right place to discuss any ideas, critics, feature requests and all the ideas regarding our website. Please follow the forum rules and always check FAQ before posting to prevent duplicate posts.</p>
 
-                <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#questionModalButton" data-whatever="@mdo">Open modal for @mdo</button>
+                <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#questionModalButton" data-whatever="@mdo">Submit Question</button>
 
                 <table className="table forum table-striped">
                     <thead>
@@ -68,13 +73,17 @@ class ForumPage extends Component {
                                     </div>
                                     <div className="form-group">
                                         <label className="control-label">Description:</label>
-                                        <textarea className="form-control" id="recipient-text" ref="description"></textarea>
+                                        <textarea className="form-control" id="recipient-text" ref="description" rows="5"></textarea>
                                     </div>
+
+                                    <button type="submit"  className="btn btn-primary">Send message</button>
+                                    <button type="button" className="btn btn-default form-horizontal" data-dismiss="modal">Close</button>
                                 </form>
                             </div>
                             <div className="modal-footer">
-                                <button type="Submit" className="btn btn-default" data-dismiss="modal" className="form-horizontal">Close</button>
-                                <button type="button" className="btn btn-primary">Send message</button>
+
+
+
                             </div>
                         </div>
                     </div>
