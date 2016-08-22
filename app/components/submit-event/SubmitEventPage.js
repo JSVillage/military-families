@@ -17,8 +17,8 @@ class SubimtEventPage extends Component {
                 city: this.refs.city.value,
                 state: this.refs.state.value,
                 zip: this.refs.zip.value,
-                lat: (Math.random() * (33 - 35) + 35),
-                long: -(Math.random() * (113 - 111) + 111),
+                lat: (Math.random() * (34.44 - 34.46) + 34.46),
+                long: -(Math.random() * (112.06 - 112.08) + 112.08),
             },
             date: this.refs.date.value
         };
