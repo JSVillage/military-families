@@ -2,7 +2,7 @@ import React from 'react';
 
 const FacilityCard = (props) => {
 	return <div className="col-md-3">
-        	<h4>{props.facility.facilityName}</h4>	
+        	<h3>{props.facility.facilityName}</h3>	
     		<p>{props.facility.address}</p>        	
             <ul>
                 {
