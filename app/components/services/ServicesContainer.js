@@ -21,7 +21,9 @@ class ServicesContainer extends Component {
             }                              
         } 
         else {
-            prev[current.facilityName].programs.push(current.program);           
+            if (prev[current.facilityName].programs.indexOf(current.program) === -1) {
+                prev[current.facilityName].programs.push(current.program);
+            }          
         }
 
         return prev;
