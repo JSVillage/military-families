@@ -12,6 +12,44 @@
 	font-size: 2.5em;
 }
 
+/**********************
+	STICKY FOOTER
+**********************/
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 45px;
+  /* Margin top by navbar height */
+  margin-top: 45px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 45px;
+  /* footer text styling */
+  background-color: #222222;
+  color: #ffffff;
+  
+}
+
+footer > p {
+	font-size: 1.65em;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 5.5px;
+	margin: 0;
+}
+
+.push {
+	margin-bottom: 10em;
+}
 
 /**********************
 	HOME PAGE
@@ -52,74 +90,66 @@
 	font-family: 'Merriweather', serif;
 }
 
-/**********************
-	ABOUT PAGE
-**********************/
 
-.about-page > h1 {
-	text-align: center;
+/********************
+	SERVICES PAGE
+********************/
+
+.services > h1,
+.services > p,
+.services .panel-heading > h3,
+.services .panel-heading > p {
 	font-family: 'Candal', sans-serif;
+	text-align: center;
+}
+.services h1 {
 	font-size: 3em;
-	margin: 1.5em 0 1em 0;
+	margin: 2em 0 .25em 0;
 }
 
-.about-page > p {
-	line-height: 2;
+.services > p {
+	margin-bottom: 2em;
+}
+
+.services-list {
+	text-align: center;
 	font-family: 'Merriweather', serif;
 }
 
-#about-photo {
-	position: relative;
-	top: 50px;
+/********************
+	EVENTS PAGE
+********************/
+
+
+/********************
+	FORUM PAGE
+********************/
+
+
+/***********************
+	FORUM ANSWERS PAGE
+***********************/
+
+#forum-answers-page {
+	margin-top: calc(45px + 2em);
 }
 
-#about-photo > img {
-	padding: 10px;
+.forum-btn {
+	margin: 0 5px;
 }
-
-#about-photo > p {
-	margin-left: 10px;
-	font-style: italic;
-}
-
 
 /**********************
-	STICKY FOOTER
+	MODEL COMPONENT
 **********************/
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 45px;
-  /* Margin top by navbar height */
-  margin-top: 45px;
-}
-
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 45px;
-  /* footer text styling */
-  background-color: #222222;
-  color: #ffffff;
-  
-}
-
-footer > p {
-	font-size: 1.65em;
-	font-family: 'Montserrat', sans-serif;
-	padding-top: 5.5px;
-	margin: 0;
-}
-
-.push {
-	margin-bottom: 10em;
+.close {
+	float: right;
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 1;
+	color: #000;
+	text-shadow: 0 1px 0 #fff;
+	filter: alpha(opacity=20);
+	opacity: .2;
 }
 
 /**********************
@@ -165,46 +195,33 @@ footer > p {
 	overflow: hidden;
 }
 
-/********************
-	EVENTS PAGE
-********************/
 
-/********************
-	SERVICES PAGE
-********************/
+/**********************
+	ABOUT PAGE
+**********************/
 
-.services > h1,
-.services > p,
-.services .panel-heading > h3,
-.services .panel-heading > p {
+.about-page > h1 {
+	text-align: center;
 	font-family: 'Candal', sans-serif;
-	text-align: center;
-}
-.services h1 {
 	font-size: 3em;
-	margin: 2em 0 .25em 0;
+	margin: 1.5em 0 1em 0;
 }
 
-.services > p {
-	margin-bottom: 2em;
-}
-
-.list-group-item {
-	text-align: center;
+.about-page > p {
+	line-height: 2;
 	font-family: 'Merriweather', serif;
 }
 
+#about-photo {
+	position: relative;
+	top: 50px;
+}
 
-/********************
-	Model Compoenent
-********************/
-.close {
-	float: right;
-	font-size: 21px;
-	font-weight: 700;
-	line-height: 1;
-	color: #000;
-	text-shadow: 0 1px 0 #fff;
-	filter: alpha(opacity=20);
-	opacity: .2;
+#about-photo > img {
+	padding: 10px;
+}
+
+#about-photo > p {
+	margin-left: 10px;
+	font-style: italic;
 }
