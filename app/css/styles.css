@@ -173,18 +173,26 @@ footer > p {
 	SERVICES PAGE
 ********************/
 
-.services h1 {
+.services > h1,
+.services > p,
+.services .panel-heading > h3,
+.services .panel-heading > p {
 	font-family: 'Candal', sans-serif;
 	text-align: center;
+}
+.services h1 {
 	font-size: 3em;
 	font-weight: 700;
 	margin: 2em 0 .25em 0;
 }
 
 .services > p {
-	font-family: 'Candal', sans-serif;
-	text-align: center;
 	margin-bottom: 2em;
+}
+
+.list-group-item {
+	text-align: center;
+	font-family: 'Merriweather', serif;
 }
 
 
