@@ -23,7 +23,6 @@ class JobsPage extends Component {
 
               <div>
                 <h2>Local Resources</h2>
-
                 <h3>Phone Number</h3>
                 <p>Content (already in p tags in json)</p>
               </div>
@@ -36,11 +35,12 @@ class JobsPage extends Component {
                   ensure every Veteran and Service Member comes home to a job. Whether you're wishing to work
                   for an established employer or start your own business, the Arizona Department of Veterans Services
                   is compiling the tools and information to help you secure your economic well being.</p>
+              </div>
 
 
 
 
-            Contact Information
+            <p>Contact Information
 
 Military/Veteran Employment Resource Center
 Arizona Department of Veterans’ Services
@@ -49,7 +49,7 @@ Arizona Department of Veterans’ Services
 
 Military/Veteran Employment Resource Center
 1335 N. 52nd Street Phoenix, AZ 85008
-602-267-2534
+602-267-2534</p>
 
             </div>
         </div>
