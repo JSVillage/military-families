@@ -50,7 +50,7 @@ class ForumPage extends Component {
                             </td>
                             <td className="tdfield">{question.description.slice(0,80).concat(`...`)}</td>
 
-                            <td maxlength="10">{question.presentDate}</td>
+                            <td maxLength="10">{question.presentDate}</td>
                         </tr>)}
                     </tbody>
                 </table>
@@ -61,7 +61,7 @@ class ForumPage extends Component {
                             <div className="modal-header">
                               <button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 
-                        
+
                                 <h4 className="modal-title" id="exampleModalLabel">Submit Your Question</h4>
                             </div>
                             <div className="modal-body">
