@@ -2,7 +2,7 @@
 	NAVIGATION
 **********************/
 
-/*.navbar-brand,
+.navbar-brand,
 .navbar-nav > li > a {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1.65em;
@@ -10,8 +10,7 @@
 
 .navbar > .container-fluid .navbar-brand {
 	font-size: 2.5em;
-}*/
-
+}
 
 
 /**********************
@@ -95,9 +94,9 @@ html {
 
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 3em;
+  margin-bottom: 45px;
   /* Margin top by navbar height */
-  margin-top: 50px;
+  margin-top: 45px;
 }
 
 footer {
@@ -105,13 +104,18 @@ footer {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 3em;
+  height: 45px;
   /* footer text styling */
-  font-size: 1.65em;
-  font-family: 'Montserrat', sans-serif;
-  background-color: #FF5A5F;
+  background-color: #222222;
   color: #ffffff;
-  padding-top: 13px;
+  
+}
+
+footer > p {
+	font-size: 1.65em;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 5.5px;
+	margin: 0;
 }
 
 .push {
@@ -152,31 +156,30 @@ footer {
 	height: 600px;
 	width: 100%;
 }
-<<<<<<< HEAD
 
 .tdfield{
-width: 160px;
-height: 20px;
-text-overflow: ellipsis;
-white-space: nowrap;
-overflow: hidden;
+	width: 160px;
+	height: 20px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
 }
-=======
+
 /********************
 	EVENTS PAGE
 ********************/
->>>>>>> 0c1b77f9edf320e4eda367e69a7933cc6884a536
+
 
 /********************
 	Model Compoenent
 ********************/
 .close {
-float: right;
-font-size: 21px;
-font-weight: 700;
-line-height: 1;
-color: #000;
-text-shadow: 0 1px 0 #fff;
-filter: alpha(opacity=20);
-opacity: .2;
+	float: right;
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 1;
+	color: #000;
+	text-shadow: 0 1px 0 #fff;
+	filter: alpha(opacity=20);
+	opacity: .2;
 }
