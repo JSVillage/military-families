@@ -48,7 +48,7 @@ class ForumPage extends Component {
                                 <Link to={`forum/${question.id}`}>{question.question}</Link>
                             </td>
                             <td className="tdfield">{question.description}</td>
-                            <td maxlength="10">{question.presentDate}</td>
+                            <td maxLength="10">{question.presentDate}</td>
                         </tr>)
 }
                     </tbody>
