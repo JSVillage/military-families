@@ -2,7 +2,7 @@
 	NAVIGATION
 **********************/
 
-.navbar-brand,
+/*.navbar-brand,
 .navbar-nav > li > a {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1.65em;
@@ -10,7 +10,9 @@
 
 .navbar > .container-fluid .navbar-brand {
 	font-size: 2.5em;
-}
+}*/
+
+
 
 /**********************
 	HOME PAGE
@@ -107,7 +109,7 @@ footer {
   /* footer text styling */
   font-size: 1.65em;
   font-family: 'Montserrat', sans-serif;
-  background-color: #1995dc;
+  background-color: #FF5A5F;
   color: #ffffff;
   padding-top: 13px;
 }
@@ -164,3 +166,17 @@ overflow: hidden;
 	EVENTS PAGE
 ********************/
 >>>>>>> 0c1b77f9edf320e4eda367e69a7933cc6884a536
+
+/********************
+	Model Compoenent
+********************/
+.close {
+float: right;
+font-size: 21px;
+font-weight: 700;
+line-height: 1;
+color: #000;
+text-shadow: 0 1px 0 #fff;
+filter: alpha(opacity=20);
+opacity: .2;
+}
