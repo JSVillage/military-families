@@ -9,6 +9,15 @@ export function getQuestions() {
 			});
 }
 
+export function getQuestion(forumId) {
+	return axios
+			.get(`https://nameless-sands-91761.herokuapp.com/api/forums/${forumId}`)
+			.then(response => response.data)
+			.catch(error => {
+				throw(error)
+			});
+}
+
 export function postQuestion(model) {
 	return axios
 			.post("https://nameless-sands-91761.herokuapp.com/api/forums", model)
@@ -28,6 +37,17 @@ export function getAnswers(forumId) {
 }
 
 export function postAnswers(forumId, model) {
+	return axios
+			.post(`https://nameless-sands-91761.herokuapp.com/api/forums/${forumId}/answers`, model)
+			.then(response => response.data)
+			.catch(error => {
+				throw(error)
+			});
+}
+
+
+
+export function postReply(forumId, model) {
 	return axios
 			.post(`https://nameless-sands-91761.herokuapp.com/api/forums/${forumId}/answers`, model)
 			.then(response => response.data)

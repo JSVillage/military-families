@@ -10,6 +10,7 @@ class EventsPage extends Component {
 	}
 
 	render() {
+	
 
 		const position = [33.45, -112.07];
 
@@ -25,7 +26,7 @@ class EventsPage extends Component {
 						attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'/>
 
 						{
-							this.props.events.map(event => 
+							this.props.events.map(event =>
 								<Marker key={event.id} position={[event.eventAddress.lat, event.eventAddress.long]}>
 									<Popup>
 										<span>{event.name}</span>
@@ -33,7 +34,7 @@ class EventsPage extends Component {
 								</Marker>
 							)
 						}
-					</Map>            	
+					</Map>
 				</div>
 			</div>;
 		}
