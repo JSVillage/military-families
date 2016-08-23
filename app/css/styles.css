@@ -169,6 +169,24 @@ footer > p {
 	EVENTS PAGE
 ********************/
 
+/********************
+	SERVICES PAGE
+********************/
+
+.services h1 {
+	font-family: 'Candal', sans-serif;
+	text-align: center;
+	font-size: 3em;
+	font-weight: 700;
+	margin: 2em 0 .25em 0;
+}
+
+.services > p {
+	font-family: 'Candal', sans-serif;
+	text-align: center;
+	margin-bottom: 2em;
+}
+
 
 /********************
 	Model Compoenent
