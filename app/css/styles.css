@@ -134,6 +134,10 @@ footer > p {
 	margin-top: calc(45px + 2em);
 }
 
+#forum-answers-page .panel-heading > p {
+	word-wrap: break-word;
+}
+
 .forum-btn {
 	margin: 0 5px;
 }
