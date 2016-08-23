@@ -48,16 +48,15 @@ class ForumPage extends Component {
                             <td>
                                 <Link to={`forum/${question.id}`}>{question.question}</Link>
                             </td>
-<<<<<<< HEAD
+
 
                             <td className="tdfield">{question.description.slice(0,80).concat(`...`)}</td>
                             <td maxlength="10">{question.presentDate}</td>
-=======
+
                             <td className="tdfield">{question.description}</td>
                             <td maxLength="10">{question.presentDate}</td>
->>>>>>> 8e5a51bd66656155ef228c856d55dfea143c33d1
-                        </tr>)
-}
+
+                        </tr>)}
                     </tbody>
                 </table>
 

@@ -8,7 +8,7 @@ class JobsPage extends Component {
 
     render() {
         return <div>
-<<<<<<< HEAD
+
             <div className="resources">
                 <div className="container">
 
@@ -54,7 +54,6 @@ class JobsPage extends Component {
 
                     </div>
                 </div>
-=======
           <div className="resources">
             <div className="container">
 
@@ -72,14 +71,14 @@ class JobsPage extends Component {
                 <h2>Local Resources</h2>
                 <h3>Phone Number</h3>
                 <p>Content (already in p tags in json)</p>
->>>>>>> 8e5a51bd66656155ef228c856d55dfea143c33d1
+
               </div>
             </div>;
 
-<<<<<<< HEAD
+
           }
       }
-=======
+
               <div>
                 <h2>Online Resources</h2>
                 <h3><a href="https://dvs.az.gov/services/employment">Arizona Department of Veteran's Services</a></h3>
@@ -109,7 +108,7 @@ Military/Veteran Employment Resource Center
       </div>;
     }
 }
->>>>>>> 8e5a51bd66656155ef228c856d55dfea143c33d1
+
 
 JobsPage.propTypes = {};
 
