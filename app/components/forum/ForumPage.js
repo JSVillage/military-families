@@ -11,18 +11,16 @@ class ForumPage extends Component {
     handleFormSubmit(event) {
         event.preventDefault();
         const modelquestion = {
-            question: this.refs.question.value
-        };
-        const modeldescription = {
-            description: this.refs.description.value
+            question: this.refs.question.value,
+            description: this.refs.description.value,
+
         };
 
-        this.props.postQuestion(modelquestion, modeldescription);
-        console.log(modelquestion, modeldescription);
+
+        this.props.postQuestion(modelquestion);
+
 
     }
-
-
 
     render() {
         return <div>
@@ -49,8 +47,8 @@ class ForumPage extends Component {
                             <td>
                                 <Link to={`forum/${question.id}`}>{question.question}</Link>
                             </td>
-                            <td>{question.description}</td>
-                            <td>{question.presentDate}</td>
+                            <td className="tdfield">{question.description}</td>
+                            <td maxlength="10">{question.presentDate}</td>
                         </tr>)
 }
                     </tbody>
@@ -76,15 +74,11 @@ class ForumPage extends Component {
                                         <textarea className="form-control" id="recipient-text" ref="description" rows="5"></textarea>
                                     </div>
 
-                                    <button type="submit"  className="btn btn-primary">Send message</button>
+                                    <button type="submit" className="btn btn-primary">Send message</button>
                                     <button type="button" className="btn btn-default form-horizontal" data-dismiss="modal">Close</button>
                                 </form>
                             </div>
-                            <div className="modal-footer">
-
-
-
-                            </div>
+                            <div className="modal-footer"></div>
                         </div>
                     </div>
                 </div>

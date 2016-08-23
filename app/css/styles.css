@@ -146,7 +146,15 @@ footer {
 }
 
 
-.leaflet-container { 
+.leaflet-container {
 	height: 600px;
-	width: 100%; 
+	width: 100%;
+}
+
+.tdfield{
+width: 160px;
+height: 20px;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
 }
