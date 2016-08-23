@@ -12,7 +12,8 @@ const EventListItem = (props) => {
 				<span className="day">{event.cssday}</span>
 				<span className="month">{event.cssmonth}</span>
 				<span className="year">{event.cssyear}</span>
-				<span className="time">12:00 AM</span>
+				<span className="time">12:00 AM yaaaaaaa</span>
+
 
 		</p>
 		<div className="info">
