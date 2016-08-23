@@ -7,14 +7,33 @@ class ServicesContainer extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            services: []
+            programs: {}
         };
+    }
+
+    groupProgramsByFacility(prev, current) {
+
+        if (!prev.hasOwnProperty(current.facilityName)) {
+            prev[current.facilityName] = {
+                facilityName: current.facilityName,
+                address: `${current.address} ${current.city} ${current.state} ${current.zip}`,
+                programs: [current.program]
+            }                              
+        } 
+        else {
+            prev[current.facilityName].programs.push(current.program);           
+        }
+
+        return prev;
     }
 
     componentDidMount() {
         actions.getServices().then(response => {
-            const services = response.filter(service => service.state === "AZ");
-            this.setState({ services });
+            const programs = response
+                                .filter(service => service.state === "AZ")
+                                .reduce((prev, current) => this.groupProgramsByFacility(prev, current), {});
+
+            this.setState({ programs });
         });
     }
 

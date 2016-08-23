@@ -1,4 +1,5 @@
 import React, { Component, PropTypes } from 'react';
+import FacilityCard from './FacilityCard';
 
 class ServicesPage extends Component {
 
@@ -7,6 +8,7 @@ class ServicesPage extends Component {
     }
 
     render() {
+
         return <div className="services">
             <h1>PTSD Services in Arizona</h1>
             <p>The following is a list of PTSD programs recognized by the Department of Veterans Affairs</p>
@@ -26,6 +28,12 @@ class ServicesPage extends Component {
                     </div>
                 </div>
             </div>
+
+        const facilityCards = Object.keys(this.props.programs).map((key, index) => <FacilityCard key={index} facility={this.props.programs[key]} />)          
+        return <div>
+            <h1>PTSD services providers in Arizona</h1>
+            {facilityCards}
+
         </div>;
     }
 }
@@ -33,7 +41,7 @@ class ServicesPage extends Component {
 ServicesPage.displayName = "ServicesPage";
 
 ServicesPage.propTypes = {
-    services: PropTypes.array.isRequired
+    programs: PropTypes.object.isRequired
 };
 
 export default ServicesPage;
