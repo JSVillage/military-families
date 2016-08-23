@@ -19,7 +19,7 @@ class HomePage extends Component {
 		        <div className="poster hidden">
 		            <img src="app/coverr-video/Merica.jpg" alt="" />
 		        </div>
-		     
+
 		        <div className="row">
 		        	<div className="col-lg-offset-6 col-lg-6 col-md-offset-7 col-md-5">
 			        	<div className="title-container">
@@ -46,7 +46,7 @@ class HomePage extends Component {
 					<p>650 E. Indian School Rd.</p>
 					<p>Phoenix, AZ 85021</p>
 					<p>602-277-5551</p>
-					<p>Other Vet Centers, clinics, and offices can be found <a href="http://www.va.gov/landing2_locations.htm" target="_blank">here</a>.</p>
+					<p>Other Vet Centers, clinics, and offices can be found <a href="http://www.va.gov/directory/guide/state.asp?STATE=AZ&dnum=1" target="_blank">here</a>.</p>
 
 				</div>
 				<div className="col-md-4 home-page">
