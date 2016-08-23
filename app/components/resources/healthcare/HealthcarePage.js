@@ -18,7 +18,7 @@ class HealthcarePage extends Component {
             <h3>Phone Number</h3>
             <p>Content (already in p tags in json)</p>
 
-            title: "State Mental Health Resources for Arizona",
+            <div>title: "State Mental Health Resources for Arizona",
 newItem: false,
 linkName: "http://store.samhsa.gov/product/Arizona-State-Resource-Guide/SRG-AZ",
 linkUrl: "https://www.nrd.gov/clickTrack/confirm/8644535",
@@ -43,7 +43,7 @@ organization": "Southwest Behavioral Health",
 
 organization": "Meadows",
 "Link": "http://www.themeadows.com/conditions-we-treat/ptsd",
-"description": " "
+"description": " "</div>
             </div>
         </div>
       </div>;

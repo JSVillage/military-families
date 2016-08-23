@@ -18,7 +18,7 @@ class FundingPage extends Component {
             <h3>Phone Number</h3>
             <p>Content (already in p tags in json)</p>
 
-            http://militarybenefits.info/military-discounts/
+            <p>http://militarybenefits.info/military-discounts/
 
             http://www.military.com/discounts
 
@@ -26,7 +26,7 @@ class FundingPage extends Component {
 
             http://www.nrotc.org/our-work/veterans-aid/
 
-            https://dvs.az.gov/donation-fund
+            https://dvs.az.gov/donation-fund</p>
 
             </div>
         </div>
