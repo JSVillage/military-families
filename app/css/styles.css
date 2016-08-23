@@ -150,6 +150,17 @@ footer {
 	height: 600px;
 	width: 100%;
 }
+<<<<<<< HEAD
+
+.tdfield{
+width: 160px;
+height: 20px;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+}
+=======
 /********************
 	EVENTS PAGE
 ********************/
+>>>>>>> 0c1b77f9edf320e4eda367e69a7933cc6884a536
