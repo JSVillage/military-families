@@ -10,7 +10,7 @@ const FacilityCard = (props) => {
 			
 	            <ul className="list-group">
 	                {
-	                    props.facility.programs.map((program, index) => <li className="list-group-item" key={index}>{program}</li>)
+	                    props.facility.programs.map((program, index) => <li className="list-group-item" key={index} dangerouslySetInnerHTML={{__html: program}}></li>)
 	                }
 	            </ul>
        
