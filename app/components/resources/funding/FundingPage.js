@@ -10,9 +10,20 @@ class FundingPage extends Component {
         return <div className="resources">
             <div className="container">
                 <h1 id="funding-h1"><i className="fa fa-dollar icon" aria-hidden="true"></i>Funding</h1>
-                <div className="row">
-                    <div className="col-md-4">
-                        <div className="panel panel-info funding">
+                  <div className="row">
+                     <div className="col-md-6">
+                        <div className="panel funding">
+                            <div className="panel-heading">
+                                <h2><a href="https://dvs.az.gov/donation-fund" target="_blank">Arizona Department of Veterans' Services</a></h2>
+                            </div>
+                            <div className="panel-body">
+                                <p><i>"The Arizona Veterans' Donation Fund, established in 1999 by the Arizona legislature, has helped fund programs that benefit veterans and their families throughout Arizona."</i></p>
+                                <p>Provides options to volunteer your time or make a donation.</p>
+                            </div>
+                        </div>
+                    </div>
+                     <div className="col-md-6">
+                        <div className="panel funding">
                             <div className="panel-heading">
                                 <h2><a href="http://www.nrotc.org/our-work/veterans-aid/" target="_blank">National Remember Our Troops Campaign</a></h2>
                             </div>
@@ -22,8 +33,12 @@ class FundingPage extends Component {
                             </div>
                         </div>
                     </div>
+                   
+                </div>
+                <div className="row">
+                   
                     <div className="col-md-4">
-                        <div className="panel panel-info funding">
+                        <div className="panel funding">
                             <div className="panel-heading">
                                 <h2><a href="http://www.military.com/discounts" target="_blank">Military.com</a></h2>
                                 <h4><i>A division of Monster Worldwide</i></h4>
@@ -34,21 +49,8 @@ class FundingPage extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4">
-                        <div className="panel panel-info funding">
-                            <div className="panel-heading">
-                                <h2><a href="https://dvs.az.gov/donation-fund" target="_blank">Arizona Department of Veterans' Services</a></h2>
-                            </div>
-                            <div className="panel-body">
-                                <p><i>"The Arizona Veterans' Donation Fund, established in 1999 by the Arizona legislature, has helped fund programs that benefit veterans and their families throughout Arizona."</i></p>
-                                <p>Provides options to volunteer your time or make a donation.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-md-4">
-                        <div className="panel panel-info funding">
+                     <div className="col-md-4">
+                        <div className="panel funding">
                             <div className="panel-heading">
                                 <h2><a href="http://themilitarywallet.com/military-discounts/" target="_blank">Military Wallet</a></h2>
                                 <h4><i>Authored by Ryan Guina, a veteran of the USAF</i></h4>
@@ -60,7 +62,7 @@ class FundingPage extends Component {
                         </div>
                     </div>              
                     <div className="col-md-4">
-                        <div className="panel panel-info funding">
+                        <div className="panel funding">
                             <div className="panel-heading">
                                 <h2><a href="http://militarybenefits.info/military-discounts/" target="_blank">Military Benefits</a></h2>
                                 <h4><i>A non-government, privately sponsored website</i></h4>
@@ -71,7 +73,9 @@ class FundingPage extends Component {
                             </div>
                         </div>
                     </div>
+                   
                 </div>
+              
             </div>
         </div>;
     }
