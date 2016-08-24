@@ -95,26 +95,33 @@ footer > p {
 	SERVICES PAGE
 ********************/
 
-.services > h1,
-.services > p,
-.services .panel-heading > h3,
-.services .panel-heading > p {
-	font-family: 'Candal', sans-serif;
+#services-header > h1,
+.services .panel-heading > h3 {
+	font-weight: 700;
 	text-align: center;
 }
-.services h1 {
-	font-size: 3em;
-	margin: 2em 0 .25em 0;
-}
 
-.services > p {
-	margin-bottom: 2em;
-}
-
+#services-header > p,
+.services .panel-heading > p,
 .services-list {
 	text-align: center;
 	font-family: 'Merriweather', serif;
 }
+
+#services-header h1 {
+	margin: 2em 0 .75em 0;
+}
+
+#services-header > p {
+	line-height: 2;
+}
+
+#services-header {
+	width: 55%;
+	margin: 2em auto;
+}
+
+
 
 /********************
 	EVENTS PAGE
@@ -214,7 +221,7 @@ footer > p {
 
 .about-page > h1 {
 	text-align: center;
-	font-family: 'Candal', sans-serif;
+	font-weight: 700;
 	font-size: 3em;
 	margin: 1.5em 0 1em 0;
 }
