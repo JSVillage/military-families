@@ -37,7 +37,7 @@ footer {
   /* footer text styling */
   background-color: #222222;
   color: #ffffff;
-  
+
 }
 
 footer > p {
@@ -160,7 +160,7 @@ footer > p {
 	RESOURCES PAGE
 **********************/
 
-.resources h4 {
+.resources .heading {
 	font-weight: 700;
 	margin: 1.6em 0 1em
 }
@@ -185,6 +185,14 @@ footer > p {
 	margin-right: 12px;
 }
 
+.resources .jobs h4 {
+	color: red;
+}
+
+
+/**********************
+	Maps?
+**********************/
 
 .leaflet-container {
 	height: 600px;
