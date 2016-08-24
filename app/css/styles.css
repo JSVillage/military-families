@@ -221,16 +221,18 @@ footer > p {
 	font-size: 3em;
 }
 
-.funding h2 > a {
-	color: white;
-}
-
-.funding h2, .funding h4 {
-	text-align: center;
+.funding h2 {
+	font-weight: 600;
 }
 
 .funding {
 	background-color: transparent;
+}
+
+.funding .panel-heading {
+	background-color: skyblue;
+    opacity: .8;
+    border-radius: 10px;
 }
 
 /**********************
