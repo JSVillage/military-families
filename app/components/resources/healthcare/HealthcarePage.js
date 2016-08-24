@@ -8,46 +8,46 @@ class HealthcarePage extends Component {
 
     render() {
         return <div>
-          <div className="resources">
-            <div className="container">
 
+          <div className="resources jobs">
             <h1><i className="fa fa-medkit icon" aria-hidden="true"></i>Health Care</h1>
 
-            <h2>Title</h2>
-            <h3>Link</h3>
-            <h3>Phone Number</h3>
-            <p>Content (already in p tags in json)</p>
+            <div className="container">
+              <div className="row">
+                <div className="col-md-6">
+                  <h2 className="heading">Local Resources</h2>
+                  <h3>Military/Veteran Employment Resource Center</h3>
+                  <p>Arizona Department of Veteran's Services</p>
+                  <p>(602) 255-3373</p>
+                  <p>3839 N 3rd St <br/>
+                     Phoenix, AZ 85012</p>
 
-            <div>title: "State Mental Health Resources for Arizona",
-newItem: false,
-linkName: "http://store.samhsa.gov/product/Arizona-State-Resource-Guide/SRG-AZ",
-linkUrl: "https://www.nrd.gov/clickTrack/confirm/8644535",
-phoneNumber: "",
-governmentSupportedSite: true,
-content: "<p>Lists of mental health facilities and services, substance abuse treatment facilities, suicide prevention programs and organizations that provide professional advocacy protection, family support programs, financing information and self-help groups in Arizona.</p>",
+                  <h3>Military/Veteran Employment Resource Center</h3>
+                  <p>(602) 267-2534</p>
+                  <p>1335 N. 52nd Street <br/>
+                    Phoenix, AZ 85008</p>
+                </div>
 
-title: "National Alliance on Mental Illness (NAMI) - Arizona",
-newItem: false,
-linkName: "http://www.namiaz.org/",
-linkUrl: "https://www.nrd.gov/clickTrack/confirm/14101238",
-phoneNumber: "602-244-8166",
-governmentSupportedSite: false,
-content: "<p>Provides education, support and advocacy for persons with mental illnesses, their families and the wider community in order to improve quality of life. Find <a title="local affiliates" href="http://www.nami.org/Template.cfm?Section=Your_Local_NAMI&amp;Template=/CustomSource/AffiliateFinderContactList.cfm&amp;state=AZ" target="_blank">local affiliates</a>.</p>",
+                <div className="col-md-6">
 
-"organization": "Oasis Behavioral Health",
-"Link": "http://www.obhhospital.com/ptsd"
+                  <h2 className="heading">Online Resources</h2>
 
-organization": "Southwest Behavioral Health",
-"Link": "https://www.sbhservices.org/#Area",
-"description": "
+                  <h3><a href="https://dvs.az.gov/services/employment">Arizona Department of Veteran's Services</a></h3>
+                  <a className="click" href="https://dvs.az.gov/services/employment">Click here!</a>
+                  <p>Mission Statement <br/> The Arizona Department of Veterans Services is actively working to
+                    ensure every Veteran and Service Member comes home to a job. Whether you're wishing to work
+                    for an established employer or start your own business, the Arizona Department of Veterans Services
+                    is compiling the tools and information to help you secure your economic well being.</p>
 
-organization": "Meadows",
-"Link": "http://www.themeadows.com/conditions-we-treat/ptsd",
-"description": " "
+                  <h3><a href="http://www.military.com/veteran-jobs">Military.com Veteran Employment Center</a></h3>
+                  <a className="click" href="http://www.military.com/veteran-jobs">Click here!</a>
+                  <p>Search engine and resources to find military-friendly jobs.</p>
 
-Catholic Charities link 
-</div>
+                </div>
+              </div>
             </div>
+
+
         </div>
       </div>;
     }
