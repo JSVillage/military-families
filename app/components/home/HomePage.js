@@ -23,7 +23,7 @@ class HomePage extends Component {
 		        <div className="row">
 		        	<div className="col-lg-offset-6 col-lg-6 col-md-offset-7 col-md-5">
 			        	<div className="title-container">
-				        	<h1>Military Veterans</h1>
+				        	<h1>Veteran Support</h1>
 				        	<h3>A resource for PTSD <br/> survivors in AZ</h3>
 			        	</div>
 
