@@ -215,6 +215,23 @@ footer > p {
 	font-size: 1.2em;
 }
 
+#funding-h1 {
+	margin: 1.5em;
+	padding: 0px;
+	font-size: 3em;
+}
+
+.funding h2 > a {
+	color: white;
+}
+
+.funding h2, .funding h4 {
+	text-align: center;
+}
+
+.funding {
+	background-color: transparent;
+}
 
 /**********************
 	Maps?
