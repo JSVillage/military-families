@@ -33,12 +33,14 @@ class JobsPage extends Component {
                   <h2 className="heading">Online Resources</h2>
 
                   <h3><a href="https://dvs.az.gov/services/employment">Arizona Department of Veteran's Services</a></h3>
+                  <a className="click" href="https://dvs.az.gov/services/employment">Click here!</a>
                   <p>Mission Statement <br/> The Arizona Department of Veterans Services is actively working to
                     ensure every Veteran and Service Member comes home to a job. Whether you're wishing to work
                     for an established employer or start your own business, the Arizona Department of Veterans Services
                     is compiling the tools and information to help you secure your economic well being.</p>
 
                   <h3><a href="http://www.military.com/veteran-jobs">Military.com Veteran Employment Center</a></h3>
+                  <a className="click" href="http://www.military.com/veteran-jobs">Click here!</a>
                   <p>Search engine and resources to find military-friendly jobs.</p>
 
                 </div>

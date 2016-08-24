@@ -43,7 +43,10 @@ organization": "Southwest Behavioral Health",
 
 organization": "Meadows",
 "Link": "http://www.themeadows.com/conditions-we-treat/ptsd",
-"description": " "</div>
+"description": " "
+
+Catholic Charities link 
+</div>
             </div>
         </div>
       </div>;

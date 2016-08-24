@@ -1,14 +1,14 @@
 import React, { Component, PropTypes } from 'react';
 
 class AboutPage extends Component {
-    
+
     constructor(props) {
         super(props);
     }
 
     render() {
-        return <div>
-        	
+        return <div className="flag">
+
         	<div className="container about-page">
         		<h1>About Us</h1>
             	<div className="row">

@@ -20,28 +20,28 @@ class ResourcesPage extends Component {
                             <i className="fa fa-dollar fa-4x" aria-hidden="true"></i>
                             <h4 className="heading">Funding</h4>
                         </Link>
-                        <p>Phasellizzle its fo rizzle volutpizzle tellizzle. Sizzle sizzle adipiscing lorem. Donizzle owned est.</p>
+                        <p>These sites will help with financial issues that often come up after returning from duty.</p>
                     </div>
                     <div className="col-md-3">
                         <Link to="/resources/education">
                             <i className="fa fa-university fa-4x" aria-hidden="true"></i>
                             <h4 className="heading">Education</h4>
                         </Link>
-                        <p>Phasellizzle its fo rizzle volutpizzle tellizzle. Sizzle sizzle adipiscing lorem. Donizzle owned est.</p>
+                        <p>There are many resources for veterans when it comes to education if you just know where to look. Please explore the following links.</p>
                     </div>
                     <div className="col-md-3">
                         <Link to="/resources/healthcare">
                             <i className="fa fa-medkit fa-4x" aria-hidden="true"></i>
                             <h4 className="heading">Healthcare</h4>
                         </Link>
-                        <p>Phasellizzle its fo rizzle volutpizzle tellizzle. Sizzle sizzle adipiscing lorem. Donizzle owned est.</p>
+                        <p>The V.A helps with medical issues, as well as those of family members. Outside sources can be hard to find, but they are available through the right channels.</p>
                     </div>
                     <div className="col-md-3">
                         <Link to="/resources/jobs">
                             <i className="fa fa-briefcase fa-4x" aria-hidden="true"></i>
                             <h4 className="heading">Jobs</h4>
                         </Link>
-                        <p>Phasellizzle its fo rizzle volutpizzle tellizzle. Sizzle sizzle adipiscing lorem. Donizzle owned est.</p>
+                        <p>Here are some helpful sites to get help you get the best job to utilize the valuable skills you learned while serving.</p>
                     </div>
                 </div>
 

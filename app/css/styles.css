@@ -94,6 +94,11 @@ footer > p {
 /********************
 	SERVICES PAGE
 ********************/
+/*.services {
+	height: calc(100vh - 70px);
+	background-image: url("../images/flag.gif");
+	background-size: cover;
+}*/
 
 #services-header > h1,
 .services .panel-heading > h3 {
@@ -109,7 +114,8 @@ footer > p {
 }
 
 #services-header h1 {
-	margin: 2em 0 .75em 0;
+	margin: 1em 0 .75em 0;
+	padding-top: 1.5em;
 }
 
 #services-header > p {
@@ -120,6 +126,7 @@ footer > p {
 	width: 55%;
 	margin: 2em auto;
 }
+
 
 
 
@@ -166,15 +173,21 @@ footer > p {
 /**********************
 	RESOURCES PAGE
 **********************/
+.resources {
+	height: calc(100vh - 90px);
+	background-image: url("../images/flag.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 
 .resources .heading {
 	font-weight: 700;
-	margin: 1.6em 0 1em
 }
 
 .resources h1 {
 	text-align: center;
-	margin: 3em 0 1.6em 0;
+	margin-bottom: 1.6em;
+	padding-top: 2em;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -184,16 +197,20 @@ footer > p {
 }
 
 .resources p {
-		line-height: 2;
-		font-family: 'Merriweather', serif;
+	line-height: 2;
+	font-family: 'Merriweather', serif;
 }
 
 .resources .icon {
 	margin-right: 12px;
 }
 
-.resources .jobs h4 {
-	color: red;
+.resources h3 {
+	color: #008cba;
+}
+
+.resources .click {
+	font-size: 1.2em;
 }
 
 
@@ -218,6 +235,12 @@ footer > p {
 /**********************
 	ABOUT PAGE
 **********************/
+.flag {
+	height: calc(100vh - 30px);
+	background-image: url("../images/flag.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 
 .about-page > h1 {
 	text-align: center;
