@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react';
+import React, {Component, PropTypes} from 'react';
 import * as actions from './actions';
 import SubmitEventPage from './SubmitEventPage';
 
@@ -12,13 +12,13 @@ class SubmitEventContainer extends Component {
     postEvent(model) {
         actions.postEvent(model).then(response => {
             if (response.status === 200) {
-                this.context.router.push('/events');                
+                this.context.router.push('/events');
             }
         });
     }
 
     render() {
-        return <SubmitEventPage postEvent={this.postEvent} />;
+        return <SubmitEventPage postEvent={this.postEvent}/>;
     }
 }
 

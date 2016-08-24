@@ -1,7 +1,7 @@
 /**********************
 	NAVIGATION
 **********************/
-
+/*
 .navbar-brand,
 .navbar-nav > li > a {
 	font-family: 'Montserrat', sans-serif;
@@ -10,7 +10,7 @@
 
 .navbar > .container-fluid .navbar-brand {
 	font-size: 2.5em;
-}
+}*/
 
 /**********************
 	STICKY FOOTER
@@ -26,6 +26,11 @@ body {
   margin-bottom: 45px;
   /* Margin top by navbar height */
   margin-top: 45px;
+
+
+
+
+
 }
 
 footer {
@@ -35,13 +40,12 @@ footer {
   /* Set the fixed height of the footer here */
   height: 45px;
   /* footer text styling */
-  background-color: #222222;
+  background-color: #333333;
   color: #ffffff;
 }
 
 footer > p {
-	font-size: 1.65em;
-	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
 	padding-top: 5.5px;
 	margin: 0;
 }
@@ -57,7 +61,7 @@ footer > p {
 .title-container {
 	margin-top: 35%;
 	text-align: center;
-	color: #1995dc;
+	color: #333333;
 	text-shadow: 2px 2px 10px white;
 }
 
@@ -86,7 +90,7 @@ footer > p {
 .home-page > p {
 	line-height: 2;
 	text-align: center;
-	font-family: 'Merriweather', serif;
+
 }
 
 
@@ -268,4 +272,10 @@ footer > p {
 #about-photo > p {
 	margin-left: 10px;
 	font-style: italic;
+}
+
+.panel-info>.panel-heading {
+    color: #ffffff;
+    background-color: #008cba;
+    border-color: #008cba;
 }

@@ -14,7 +14,9 @@ class MasterPage extends React.Component {
                             <span className="icon-bar"></span>
                             <span className="icon-bar"></span>
                         </button>
-                        <a href="/" className="navbar-brand">Arizona Veteran Support</a>
+
+                        <a href="/" className="navbar-brand"> <i className="fa fa-heartbeat" aria-hidden="true"></i> Veteran Support</a>
+                        
                     </div>
                     <div className="navbar-collapse collapse" id="bs-collapse">
                         <ul className="nav navbar-nav navbar-right">

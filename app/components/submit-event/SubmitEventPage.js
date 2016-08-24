@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react';
+import React, {Component, PropTypes} from 'react';
 
 class SubimtEventPage extends Component {
 
@@ -6,7 +6,7 @@ class SubimtEventPage extends Component {
         super(props);
         this.handleSubmitClick = this.handleSubmitClick.bind(this);
     }
-    
+
     handleSubmitClick(event) {
 
         const model = {
@@ -18,7 +18,7 @@ class SubimtEventPage extends Component {
                 state: this.refs.state.value,
                 zip: this.refs.zip.value,
                 lat: (Math.random() * (34.44 - 34.46) + 34.46),
-                long: -(Math.random() * (112.06 - 112.08) + 112.08),
+                long: -(Math.random() * (112.06 - 112.08) + 112.08)
             },
             date: this.refs.date.value
         };
@@ -30,51 +30,58 @@ class SubimtEventPage extends Component {
         return <div>
             <div className="form-horizontal">
                 <div className="form-group">
-                    <label className="control-label col-sm-2">Name: </label>
+                    <label className="control-label col-sm-2">Event Name:
+                    </label>
                     <div className="col-sm-3">
-                        <input className="form-control" ref="name" />
+                        <input className="form-control" ref="name"/>
                     </div>
                 </div>
 
                 <div className="form-group">
-                    <label className="control-label col-sm-2">Description: </label>
+                    <label className="control-label col-sm-2">Description of Event:
+                    </label>
                     <div className="col-sm-3">
-                        <input className="form-control" ref="description" />
+                        <input className="form-control" ref="description"/>
                     </div>
                 </div>
 
                 <div className="form-group">
-                    <label className="control-label col-sm-2">Address: </label>
+                    <label className="control-label col-sm-2">Address:
+                    </label>
                     <div className="col-sm-3">
-                        <input className="form-control" ref="street" />
+                        <input className="form-control" ref="street"/>
                     </div>
                 </div>
 
                 <div className="form-group">
-                    <label className="control-label col-sm-2">City: </label>
+                    <label className="control-label col-sm-2">City:
+                    </label>
                     <div className="col-sm-3">
-                        <input className="form-control" ref="city" />
+                        <input className="form-control" ref="city"/>
                     </div>
                 </div>
 
                 <div className="form-group">
-                    <label className="control-label col-sm-2">State: </label>
+                    <label className="control-label col-sm-2">State:
+                    </label>
                     <div className="col-sm-3">
-                        <input className="form-control" ref="state" />
+                        <input className="form-control" ref="state"/>
                     </div>
                 </div>
 
                 <div className="form-group">
-                    <label className="control-label col-sm-2">Zip Code: </label>
+                    <label className="control-label col-sm-2">Zip Code:
+                    </label>
                     <div className="col-sm-3">
-                        <input className="form-control" ref="zip" />
+                        <input className="form-control" ref="zip"/>
                     </div>
                 </div>
-                
+
                 <div className="form-group">
-                    <label className="control-label col-sm-2">Date: </label>
+                    <label className="control-label col-sm-2">Date of Event:
+                    </label>
                     <div className="col-sm-3">
-                        <input className="form-control" ref="date" />
+                        <input className="form-control" ref="date"/>
                     </div>
                 </div>
 
@@ -84,7 +91,7 @@ class SubimtEventPage extends Component {
                     </div>
                 </div>
 
-            </div>                
+            </div>
         </div>;
     }
 }
