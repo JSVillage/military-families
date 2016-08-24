@@ -24,7 +24,7 @@ class HomePage extends Component {
 		        	<div className="col-lg-offset-6 col-lg-6 col-md-offset-7 col-md-5">
 			        	<div className="title-container">
 				        	<h1>Military Veterans</h1>
-				        	<h3>A resource for PTSD victims</h3>
+				        	<h3>A resource for PTSD <br/> survivors in AZ</h3>
 			        	</div>
 
 		        	</div>
@@ -51,8 +51,8 @@ class HomePage extends Component {
 				</div>
 				<div className="col-md-4 home-page">
 					<h2><i className="fa fa-users" aria-hidden="true"></i> Comradery</h2>
-					<p>You are not in this fight alone. The military's teamwork philosopohy extends beyond the battlefield and into the rest of your lives. Please check out our <Link to="/events">Events</Link> and <Link to="/forum">Forum</Link> to connect with other veterans.</p>
-					<p>Also checkout <a href="https://theveteransdirectory.org/" target="_blank">The Veterans Directory</a> for more great information to veterans in general.</p>
+					<p>You are not in this fight alone. The military's teamwork philosophy extends beyond the battlefield and into the rest of your lives. Please check out our <Link to="/events">Events</Link> and <Link to="/forum">Forum</Link> pages to connect with other veterans.</p>
+					<p>Also check out <a href="https://theveteransdirectory.org/" target="_blank">The Veterans Directory</a> for more great information to veterans in general.</p>
 
 				</div>
 			</div>

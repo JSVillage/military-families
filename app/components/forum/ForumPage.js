@@ -31,7 +31,7 @@ class ForumPage extends Component {
                     <h1>Forum</h1>
                 </div>
 
-                <p className="lead">This is the right place to discuss any ideas, critics, feature requests and all the ideas regarding our website. Please follow the forum rules and always check FAQ before posting to prevent duplicate posts.</p>
+                <p className="lead">This is the right place to discuss any ideas, critiques, feature requests, and all the ideas regarding our website. Please follow the forum rules and always check FAQ before posting to prevent duplicate posts.</p>
 
                 <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#questionModalButton" data-whatever="@mdo">Submit Question</button>
 

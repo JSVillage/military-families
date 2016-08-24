@@ -34,7 +34,7 @@ class ResourcesPage extends Component {
                             <i className="fa fa-medkit fa-4x" aria-hidden="true"></i>
                             <h4 className="heading">Healthcare</h4>
                         </Link>
-                        <p>The V.A helps with medical issues, as well as those of family members. Outside sources can be hard to find, but they are available through the right channels.</p>
+                        <p>The V.A. helps with medical issues for both veterans and their family members. Outside sources can be hard to find, but they are available through the right channels.</p>
                     </div>
                     <div className="col-md-3">
                         <Link to="/resources/jobs">
