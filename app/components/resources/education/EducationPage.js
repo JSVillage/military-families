@@ -34,14 +34,14 @@ class EducationPage extends Component {
 
              <h2 className="heading">Online Resources</h2>
 
-               <h3 className="heading">G.I. Bill Information</h3>
-                 <p><a href="http://www.military.com/education/gi-bill/learn-to-use-your-gi-bill.html">Click here!</a></p>
+               <h3 className="heading"><a href="http://www.military.com/education/gi-bill/learn-to-use-your-gi-bill.html">G.I. Bill Information</a></h3>
+                 <p><a href="http://www.military.com/education/gi-bill/learn-to-use-your-gi-bill.html">Click here</a></p>
                  <p>"The term GI Bill refers to any Department of Veterans Affairs education benefit earned by members of Active Duty, Selected Reserve
                   and National Guard Armed Forces and their families. The benefit is designed to help service members and eligible veterans cover the
                   costs associated with getting an education or training."</p>
 
-               <h3 className="heading">Tuition Assistance</h3>
-                 <p><a href="http://www.military.com/education/money-for-school">Click here!</a></p>
+               <h3 className="heading"><a href="http://www.military.com/education/money-for-school">Tuition Assistance</a></h3>
+                 <p><a href="http://www.military.com/education/money-for-school">Click here</a></p>
                  <p>Army: The Army offers several programs to support your education goals including 100% Tuition Assistance for college courses.</p>
                  <p>Navy: The Navy offers several programs to support your education goals including up to 100% Tuition Assistance for college courses.</p>
                  <p>Air Force: The Air Force offers several programs to support your education goals including 100% Tuition Assistance for college courses.</p>
