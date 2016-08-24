@@ -37,7 +37,6 @@ footer {
   /* footer text styling */
   background-color: #222222;
   color: #ffffff;
-
 }
 
 footer > p {
@@ -48,7 +47,7 @@ footer > p {
 }
 
 .push {
-	margin-bottom: 10em;
+	margin-bottom: 3em;
 }
 
 /**********************
@@ -94,11 +93,11 @@ footer > p {
 /********************
 	SERVICES PAGE
 ********************/
-/*.services {
-	height: calc(100vh - 70px);
+.services {
+	height: 100%;
 	background-image: url("../images/flag.gif");
 	background-size: cover;
-}*/
+}
 
 #services-header > h1,
 .services .panel-heading > h3 {
@@ -236,10 +235,13 @@ footer > p {
 	ABOUT PAGE
 **********************/
 .flag {
-	height: calc(100vh - 30px);
 	background-image: url("../images/flag.gif");
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+.about-height {
+	height: calc(100vh - 30px);
 }
 
 .about-page > h1 {

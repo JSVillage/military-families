@@ -56,7 +56,9 @@ class HomePage extends Component {
 
 				</div>
 			</div>
+      <div className="push"></div>
 		</div>
+
         </div>;
     }
 }

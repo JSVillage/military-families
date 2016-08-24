@@ -2,7 +2,7 @@
     border-right: none;
     border-left: none;
     position: relative;
-    margin-bottom: 8em;
+    margin-bottom: 3em;
 }
 .no-video .video-container video,
 .touch .video-container video {

@@ -7,7 +7,7 @@ class AboutPage extends Component {
     }
 
     render() {
-        return <div className="flag">
+        return <div className="about-height flag">
 
         	<div className="container about-page">
         		<h1>About Us</h1>
@@ -25,6 +25,7 @@ class AboutPage extends Component {
             		</div>
             	</div>
             </div>
+
         </div>;
     }
 }
