@@ -7,7 +7,7 @@ class AboutPage extends Component {
     }
 
     render() {
-        return <div className="about-height flag">
+        return <div id="about-background">
 
         	<div className="container about-page">
         		<h1>About Us</h1>

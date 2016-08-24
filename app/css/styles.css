@@ -26,11 +26,6 @@ body {
   margin-bottom: 45px;
   /* Margin top by navbar height */
   margin-top: 45px;
-
-
-
-
-
 }
 
 footer {
@@ -98,7 +93,7 @@ footer > p {
 	SERVICES PAGE
 ********************/
 .services {
-	height: 100%;
+	min-height: calc(100vh - 90px);
 	background-image: url("../images/flag.gif");
 	background-size: cover;
 }
@@ -142,6 +137,11 @@ footer > p {
 	FORUM PAGE
 ********************/
 
+#forum-background {
+	min-height: calc(100vh - 90px);
+	background-image: url("../images/flag.gif");
+	background-size: cover;
+}
 
 /***********************
 	FORUM ANSWERS PAGE
@@ -177,10 +177,9 @@ footer > p {
 	RESOURCES PAGE
 **********************/
 .resources {
-	height: calc(100vh - 90px);
+	min-height: calc(100vh - 90px);
 	background-image: url("../images/flag.gif");
 	background-size: cover;
-	background-repeat: no-repeat;
 }
 
 .resources .heading {
@@ -238,14 +237,10 @@ footer > p {
 /**********************
 	ABOUT PAGE
 **********************/
-.flag {
+#about-background {
+	min-height: calc(100vh - 90px);
 	background-image: url("../images/flag.gif");
 	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-.about-height {
-	height: calc(100vh - 30px);
 }
 
 .about-page > h1 {

@@ -21,7 +21,7 @@ class ForumPage extends Component {
 
     render() {
 
-        return <div className="flag">
+        return <div id="forum-background">
             <div className="container">
                 <div className="page-header page-heading">
                     <div className="clearfix"></div>
