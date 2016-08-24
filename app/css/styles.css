@@ -225,11 +225,15 @@ footer > p {
 	font-weight: 600;
 }
 
-.funding {
+.funding,
+.education,
+.jobs {
 	background-color: transparent;
 }
 
-.funding .panel-heading {
+.funding .panel-heading,
+.education .panel-heading,
+.jobs .panel-heading {
 	background-color: skyblue;
     opacity: .8;
     border-radius: 10px;
