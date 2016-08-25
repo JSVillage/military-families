@@ -16,14 +16,11 @@ class HealthcarePage extends Component {
             <div className="col-md-12">
               <div className="panel health">
                 <div className="panel-heading">
-                  <h3><a href="https://dvs.az.gov/services/employment">Arizona Department of Veteran's Services</a></h3>
-                  <a className="click" href="https://dvs.az.gov/services/employment">Click here!</a>
+                  <h3><a href="http://store.samhsa.gov/product/Arizona-State-Resource-Guide/SRG-AZ">State Mental Health Resources for Arizona</a></h3>
+                  <a className="click" href="http://store.samhsa.gov/product/Arizona-State-Resource-Guide/SRG-AZ">Click here!</a>
                 </div>
                 <div className="panel-body">
-                  <p>Mission Statement <br/> The Arizona Department of Veterans Services is actively working to
-                  ensure every Veteran and Service Member comes home to a job. Whether you're wishing to work
-                  for an established employer or start your own business, the Arizona Department of Veterans Services
-                    is compiling the tools and information to help you secure your economic well being.</p>
+                  <p>Lists of mental health facilities and services, substance abuse treatment facilities, suicide prevention programs and organizations that provide professional advocacy protection, family support programs, financing information and self-help groups in Arizona.</p>
                 </div>
               </div>
             </div>
@@ -32,46 +29,43 @@ class HealthcarePage extends Component {
             <div className="col-md-4">
               <div className="panel health">
                 <div className="panel-heading">
-                  <h3><a href="http://www.military.com/veteran-health">Military.com Veteran Employment Center</a></h3>
-                  <a className="click" href="http://www.military.com/veteran-health">Click here!</a>
+                  <h3><a href="http://www.namiaz.org/">National Alliance on Mental Illness (NAMI) - Arizona</a></h3>
+                  <a className="click" href="http://www.namiaz.org/">Click here!</a>
                 </div>
                 <div className="panel-body">
-                  <p>Search engine and resources to find military-friendly health.</p>
+                  <p>Provides education, support and advocacy for persons with mental illnesses, their families and the wider community in order to improve quality of life.</p>
                 </div>
             </div>
             </div>
             <div className="col-md-4">
               <div className="panel health">
                 <div className="panel-heading">
-                  <h3>Military/Veteran Employment Resource Center</h3>
+                  <h3><a href="https://www.sbhservices.org/#Area">Southwest Behavioral & Health Services</a></h3>
+                  <a className="click" href="https://www.sbhservices.org/#Area">Click here!</a>
                 </div>
                 <div className="panel-body">
-                  <p>Arizona Department of Veteran's Services</p>
-                  <p>(602) 255-3373</p>
-                  <p>3839 N 3rd St <br/>
-                  Phoenix, AZ 85012</p>
+                  <p>We inspire people to feel better and reach their potential. Through helping people discover their strengths, we improve our communities.</p>
                 </div>
               </div>
             </div>
             <div className="col-md-4">
               <div className="panel health">
                 <div className="panel-heading">
-                  <h3>Military/Veteran Employment Resource Center</h3>
+                  <h3><a href="http://www.ptsd.va.gov/">Dept. of Veteran Affairs National Center for PTSD</a></h3>
+                  <a className="click" href="http://www.ptsd.va.gov/">Click here!</a>
+
                 </div>
                 <div className="panel-body">
-                  <p>(602) 267-2534</p>
-                  <p>1335 N. 52nd Street <br/>
-
-                    Phoenix, AZ 85008</p>
+                  <p>The National Center for PTSD is dedicated to research and education on trauma and PTSD. We work to assure that the latest research findings help those exposed to trauma.</p>
                 </div>
 
-
+                </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
+
+
     </div>;
   }
 }

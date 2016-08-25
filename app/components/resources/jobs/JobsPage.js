@@ -10,7 +10,7 @@ class JobsPage extends Component {
         return <div>
 
         <div className="resources jobs">
-        <h1><i className="fa fa-medkit icon" aria-hidden="true"></i>jobs Care</h1>
+        <h1><i className="fa fa-medkit icon" aria-hidden="true"></i>Jobs</h1>
         <div className="container">
           <div className="row">
             <div className="col-md-12">
