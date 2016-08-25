@@ -41,8 +41,12 @@ class HealthcarePage extends Component {
 
                   <h3><a href="http://www.military.com/veteran-jobs">Military.com Veteran Employment Center</a></h3>
                   <a className="click" href="http://www.military.com/veteran-jobs">Click here!</a>
-                  <p>Search engine and resources to find military-friendly jobs.</p>
+                  <p>Search engine and resources to find military-friendly jobs.<h2>Title</h2>
+                  <h3>Link</h3>
+                  <h3>Phone Number</h3>
+                  <p>Content (already in p tags in json)</p>
 
+                  
                 </div>
               </div>
             </div>
