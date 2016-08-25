@@ -227,13 +227,15 @@ footer > p {
 
 .funding,
 .education,
-.jobs {
+.jobs,
+.health {
 	background-color: transparent;
 }
 
 .funding .panel-heading,
 .education .panel-heading,
-.jobs .panel-heading {
+.jobs .panel-heading,
+.health .panel-heading {
 	background-color: skyblue;
     opacity: .8;
     border-radius: 10px;
